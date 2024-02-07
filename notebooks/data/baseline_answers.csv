@@ -1,0 +1,218 @@
+question,paper_id,answer_type,answer_string,prediction
+How big is the ANTISCAM dataset? ,1911.10742,extractive," 3,044 sentences in 100 dialogs","  Based on the information provided in the context, the ANTISCAM dataset consists of 225 dialogs, each with at least three turns, for a total of 675 turns."
+How big is the ANTISCAM dataset? ,1911.10742,extractive,220 human-human dialogs,"  Based on the information provided in the context, the ANTISCAM dataset consists of 225 dialogs, each with at least three turns, for a total of 675 turns."
+How big is the ANTISCAM dataset? ,1911.10742,extractive,"220 human-human dialogs. , 3,044 sentences in 100 dialogs","  Based on the information provided in the context, the ANTISCAM dataset consists of 225 dialogs, each with at least three turns, for a total of 675 turns."
+How big is the ANTISCAM dataset? ,1911.10742,extractive,220 human-human dialogs. The average conversation length is 12.45 turns and the average utterance length is 11.13 words. ,"  Based on the information provided in the context, the ANTISCAM dataset consists of 225 dialogs, each with at least three turns, for a total of 675 turns."
+How big is the ANTISCAM dataset? ,1911.10742,extractive,220 human-human dialogs,"  Based on the information provided in the context, the ANTISCAM dataset consists of 225 dialogs, each with at least three turns, for a total of 675 turns."
+How big is the ANTISCAM dataset? ,1911.10742,extractive,"3,044 sentences in 100 dialogs","  Based on the information provided in the context, the ANTISCAM dataset consists of 225 dialogs, each with at least three turns, for a total of 675 turns."
+What is the accuracy of this model compared to sota?,1904.09131,none,Unacceptable,"  Based on the provided context information, I cannot compare the accuracy of the model to the state of the art (sota) as there is no mention of any specific benchmark or comparison in the given text. However, I can provide some general information about the accuracy of entity linking models.
+
+Entity linking is a challenging task due to the complexity of natural language and the variability of surface forms used to refer to entities. The accuracy of entity linking models can vary depending on the dataset and evaluation metric used. In general, the accuracy of entity linking models can range from 60% to 90%, with higher accuracy for models trained on larger and more diverse datasets.
+
+It's worth noting that the accuracy of the model proposed in the context information, which uses a combination of local features and a Markov chain to propagate the features, is not specified. Therefore, it is not possible to compare the accuracy of this model to sota without additional information."
+What is the accuracy of this model compared to sota?,1904.09131,abstractive,"The model improves the state of the art performance for the ISTEX dataset (F1 micro: 0.870, F1 macro: 0.858) and for the Microposts 2016 dataset (F1 micro:  0.087).","  Based on the provided context information, I cannot compare the accuracy of the model to the state of the art (sota) as there is no mention of any specific benchmark or comparison in the given text. However, I can provide some general information about the accuracy of entity linking models.
+
+Entity linking is a challenging task due to the complexity of natural language and the variability of surface forms used to refer to entities. The accuracy of entity linking models can vary depending on the dataset and evaluation metric used. In general, the accuracy of entity linking models can range from 60% to 90%, with higher accuracy for models trained on larger and more diverse datasets.
+
+It's worth noting that the accuracy of the model proposed in the context information, which uses a combination of local features and a Markov chain to propagate the features, is not specified. Therefore, it is not possible to compare the accuracy of this model to sota without additional information."
+What is the accuracy of this model compared to sota?,1904.09131,abstractive,"The micro and macro f1-scores of this model are 0.482 and 0.399 on the AIDA-CoNLL dataset, 0.087 and 0.515 on the Microposts 2016 dataset, 0.870 and 0.858 on the ISTEX-1000 dataset, 0.335 and 0.310 on the RSS-500 dataset","  Based on the provided context information, I cannot compare the accuracy of the model to the state of the art (sota) as there is no mention of any specific benchmark or comparison in the given text. However, I can provide some general information about the accuracy of entity linking models.
+
+Entity linking is a challenging task due to the complexity of natural language and the variability of surface forms used to refer to entities. The accuracy of entity linking models can vary depending on the dataset and evaluation metric used. In general, the accuracy of entity linking models can range from 60% to 90%, with higher accuracy for models trained on larger and more diverse datasets.
+
+It's worth noting that the accuracy of the model proposed in the context information, which uses a combination of local features and a Markov chain to propagate the features, is not specified. Therefore, it is not possible to compare the accuracy of this model to sota without additional information."
+What is the accuracy of this model compared to sota?,1904.09131,abstractive,The accuracy ,"  Based on the provided context information, I cannot compare the accuracy of the model to the state of the art (sota) as there is no mention of any specific benchmark or comparison in the given text. However, I can provide some general information about the accuracy of entity linking models.
+
+Entity linking is a challenging task due to the complexity of natural language and the variability of surface forms used to refer to entities. The accuracy of entity linking models can vary depending on the dataset and evaluation metric used. In general, the accuracy of entity linking models can range from 60% to 90%, with higher accuracy for models trained on larger and more diverse datasets.
+
+It's worth noting that the accuracy of the model proposed in the context information, which uses a combination of local features and a Markov chain to propagate the features, is not specified. Therefore, it is not possible to compare the accuracy of this model to sota without additional information."
+What is the accuracy of this model compared to sota?,1904.09131,none,Unacceptable,"  Based on the provided context information, I cannot compare the accuracy of the model to the state of the art (sota) as there is no mention of any specific benchmark or comparison in the given text. However, I can provide some general information about the accuracy of entity linking models.
+
+Entity linking is a challenging task due to the complexity of natural language and the variability of surface forms used to refer to entities. The accuracy of entity linking models can vary depending on the dataset and evaluation metric used. In general, the accuracy of entity linking models can range from 60% to 90%, with higher accuracy for models trained on larger and more diverse datasets.
+
+It's worth noting that the accuracy of the model proposed in the context information, which uses a combination of local features and a Markov chain to propagate the features, is not specified. Therefore, it is not possible to compare the accuracy of this model to sota without additional information."
+What previous methods do they compare against?,1611.06322,extractive,"two state-of-the-art early rumour detection baselines Liu et. al (2015) and Yang et. al (2012), which we re-implemented., Yang et. al (2012), dubbed Yang, because they proposed a feature set for early detection tailored to Sina Weibo and were used as a state-of-the-art baseline before by Liu et. al (2015). The algorithm by Liu et. al (2015), dubbed Liu, is said to operate in real-time and outperformed Yang, when only considering features available on Twitter.","  Based on the provided context information, the previous methods that are compared against in the study are:
+
+1. Yang (2012)
+2. Liu et al. (2015)
+
+These two methods are compared to the proposed approach in terms of their performance in detecting rumours quickly and accurately."
+What previous methods do they compare against?,1611.06322,extractive,"Liu et. al (2015), Yang et. al (2012)","  Based on the provided context information, the previous methods that are compared against in the study are:
+
+1. Yang (2012)
+2. Liu et al. (2015)
+
+These two methods are compared to the proposed approach in terms of their performance in detecting rumours quickly and accurately."
+What previous methods do they compare against?,1611.06322,abstractive,"They compare against two other methods that apply message-,user-, topic- and propagation-based features and rely on an SVM classifier. One perform early rumor detection and operates with a delay of 24 hrs, while the other requires a cluster of 5 repeated messages to judge them for rumors.","  Based on the provided context information, the previous methods that are compared against in the study are:
+
+1. Yang (2012)
+2. Liu et al. (2015)
+
+These two methods are compared to the proposed approach in terms of their performance in detecting rumours quickly and accurately."
+What previous methods do they compare against?,1611.06322,extractive,"Liu et. al (2015) , Yang et. al (2012)","  Based on the provided context information, the previous methods that are compared against in the study are:
+
+1. Yang (2012)
+2. Liu et al. (2015)
+
+These two methods are compared to the proposed approach in terms of their performance in detecting rumours quickly and accurately."
+What previous methods do they compare against?,1611.06322,abstractive,Liu et al. (2015) and Yang et al. (2012),"  Based on the provided context information, the previous methods that are compared against in the study are:
+
+1. Yang (2012)
+2. Liu et al. (2015)
+
+These two methods are compared to the proposed approach in terms of their performance in detecting rumours quickly and accurately."
+What baselines did they compare with?,1604.02038,extractive,"LDA, Doc-NADE, HTMM, GMNTM","  Based on the provided context information, the authors compared the following baselines with their proposed method, SLRTM:
+
+1. LDA (Latent Dirichlet Allocation) BIBREF2
+2. Doc-NADE BIBREF24
+3. HTMM BIBREF9
+4. GMNTM BIBREF12"
+What baselines did they compare with?,1604.02038,extractive,"LDA, Doc-NADE, HTMM, GMNTM","  Based on the provided context information, the authors compared the following baselines with their proposed method, SLRTM:
+
+1. LDA (Latent Dirichlet Allocation) BIBREF2
+2. Doc-NADE BIBREF24
+3. HTMM BIBREF9
+4. GMNTM BIBREF12"
+What baselines did they compare with?,1604.02038,extractive,"LDA BIBREF2, Doc-NADE BIBREF24, HTMM BIBREF9, GMNTM BIBREF12","  Based on the provided context information, the authors compared the following baselines with their proposed method, SLRTM:
+
+1. LDA (Latent Dirichlet Allocation) BIBREF2
+2. Doc-NADE BIBREF24
+3. HTMM BIBREF9
+4. GMNTM BIBREF12"
+What baselines did they compare with?,1604.02038,extractive,"LDA BIBREF2 , Doc-NADE BIBREF24, HTMM BIBREF9, GMNTM BIBREF12, LDA BIBREF2 , Doc-NADE BIBREF24, HTMM BIBREF9 , GMNTM BIBREF12","  Based on the provided context information, the authors compared the following baselines with their proposed method, SLRTM:
+
+1. LDA (Latent Dirichlet Allocation) BIBREF2
+2. Doc-NADE BIBREF24
+3. HTMM BIBREF9
+4. GMNTM BIBREF12"
+Which NER dataset do they use?,1911.04474,extractive,"CoNLL2003, OntoNotes 5.0, OntoNotes 4.0., Chinese NER dataset MSRA, Weibo NER, Resume NER","  Based on the provided context information, the authors of the paper used the following NER datasets:
+
+1. CoNLL2003
+2. OntoNotes 5.0
+3. BIBREF35 (OntoNotes 4.0 Chinese part)
+4. MSRA (news domain)
+5. Weibo NER (Sina Weibo social media)
+6. Resume NER.
+
+Therefore, the answer to your query is: ""They use CoNLL2003, OntoNotes 5.0, BIBREF35, MSRA, Weibo NER, and Resume NER."""
+Which NER dataset do they use?,1911.04474,extractive,"CoNLL2003 , OntoNotes 5.0, OntoNotes 4.0, MSRA , Weibo, Resume ","  Based on the provided context information, the authors of the paper used the following NER datasets:
+
+1. CoNLL2003
+2. OntoNotes 5.0
+3. BIBREF35 (OntoNotes 4.0 Chinese part)
+4. MSRA (news domain)
+5. Weibo NER (Sina Weibo social media)
+6. Resume NER.
+
+Therefore, the answer to your query is: ""They use CoNLL2003, OntoNotes 5.0, BIBREF35, MSRA, Weibo NER, and Resume NER."""
+Which NER dataset do they use?,1911.04474,extractive,"CoNLL2003, OntoNotes 5.0, OntoNotes 4.0, MSRA, Weibo NER, Resume NER","  Based on the provided context information, the authors of the paper used the following NER datasets:
+
+1. CoNLL2003
+2. OntoNotes 5.0
+3. BIBREF35 (OntoNotes 4.0 Chinese part)
+4. MSRA (news domain)
+5. Weibo NER (Sina Weibo social media)
+6. Resume NER.
+
+Therefore, the answer to your query is: ""They use CoNLL2003, OntoNotes 5.0, BIBREF35, MSRA, Weibo NER, and Resume NER."""
+Which NER dataset do they use?,1911.04474,extractive,"CoNLL2003, OntoNotes 5.0, BIBREF35 released OntoNotes 4.0. In this paper, we use the Chinese part, Chinese NER dataset MSRA, Weibo NER, Resume NER","  Based on the provided context information, the authors of the paper used the following NER datasets:
+
+1. CoNLL2003
+2. OntoNotes 5.0
+3. BIBREF35 (OntoNotes 4.0 Chinese part)
+4. MSRA (news domain)
+5. Weibo NER (Sina Weibo social media)
+6. Resume NER.
+
+Therefore, the answer to your query is: ""They use CoNLL2003, OntoNotes 5.0, BIBREF35, MSRA, Weibo NER, and Resume NER."""
+What was their accuracy score?,1905.00840,abstractive,"95.6% on knowledge authoring, 95% on the manually constructed QA dataset and 100% accuracy on the MetaQA dataset","  Based on the provided context information, I can answer your query as helpfully as possible. The accuracy score of KALM and KALM-QA is not explicitly mentioned in the text. However, we know that KALM achieved an accuracy of 95.6% for knowledge authoring and 95% for parsing queries, while KALM-QA achieved 100% accuracy on the MetaQA dataset. Therefore, I can infer that their accuracy score is high, but I cannot provide a specific number without further information."
+What was their accuracy score?,1905.00840,extractive,"KALM achieves an accuracy of 95.6%, KALM-QA achieves 100% accuracy","  Based on the provided context information, I can answer your query as helpfully as possible. The accuracy score of KALM and KALM-QA is not explicitly mentioned in the text. However, we know that KALM achieved an accuracy of 95.6% for knowledge authoring and 95% for parsing queries, while KALM-QA achieved 100% accuracy on the MetaQA dataset. Therefore, I can infer that their accuracy score is high, but I cannot provide a specific number without further information."
+What was their accuracy score?,1905.00840,extractive,"KALM-QA achieves an accuracy of 95% for parsing the queries, The second dataset we use is MetaQA dataset BIBREF14 , which contains contains almost 29,000 test questions and over 260,000 training questions. KALM-QA achieves 100% accuracy","  Based on the provided context information, I can answer your query as helpfully as possible. The accuracy score of KALM and KALM-QA is not explicitly mentioned in the text. However, we know that KALM achieved an accuracy of 95.6% for knowledge authoring and 95% for parsing queries, while KALM-QA achieved 100% accuracy on the MetaQA dataset. Therefore, I can infer that their accuracy score is high, but I cannot provide a specific number without further information."
+What was their accuracy score?,1905.00840,abstractive,"KALM achieves an accuracy of 95.6%, KALM-QA achieves 95% accuracy on the manually constructured general questions dataset based on the 50 logical frames and achieves 100% accuracy on MetaQA dataset","  Based on the provided context information, I can answer your query as helpfully as possible. The accuracy score of KALM and KALM-QA is not explicitly mentioned in the text. However, we know that KALM achieved an accuracy of 95.6% for knowledge authoring and 95% for parsing queries, while KALM-QA achieved 100% accuracy on the MetaQA dataset. Therefore, I can infer that their accuracy score is high, but I cannot provide a specific number without further information."
+What are the contributions of this paper?,1810.02229,extractive,"adaptation of a state-of-the-art sequence to sequence (seq2seq) neural system to event detection and classification for Italian in a single step approach, investigation on the quality of existing Italian word embeddings for this task, a comparison against a state-of-the-art discrete classifier","  Based on the provided context information, the paper's contributions can be summarized as follows:
+
+1. The paper investigates the impact of different Italian word embeddings on the performance of a Bi-LSTM network with a CRF classifier for event extraction tasks.
+2. The authors compare five different word embedding models for Italian, including word2vec and GloVe, and analyze their effects on the network's performance.
+3. The paper reports the results of experiments using a dataset from the EVENTI corpus, which consists of contemporary and historical news articles.
+4. The authors find that the choice of word embeddings has a significant impact on the network's performance, with Fastext-It being the best embedding configuration.
+5. The paper discusses the implications of these findings for future research on event extraction and word embeddings, and highlights the importance of considering the specific characteristics of the dataset and the task at hand when selecting word embeddings."
+What are the contributions of this paper?,1810.02229,abstractive,(1) Using seq2seq for event detection and classification in Italian (2) Investigating quality of Italian word embeddings for this task (3) Comparison to state-of-the-art discrete classifier,"  Based on the provided context information, the paper's contributions can be summarized as follows:
+
+1. The paper investigates the impact of different Italian word embeddings on the performance of a Bi-LSTM network with a CRF classifier for event extraction tasks.
+2. The authors compare five different word embedding models for Italian, including word2vec and GloVe, and analyze their effects on the network's performance.
+3. The paper reports the results of experiments using a dataset from the EVENTI corpus, which consists of contemporary and historical news articles.
+4. The authors find that the choice of word embeddings has a significant impact on the network's performance, with Fastext-It being the best embedding configuration.
+5. The paper discusses the implications of these findings for future research on event extraction and word embeddings, and highlights the importance of considering the specific characteristics of the dataset and the task at hand when selecting word embeddings."
+What are the contributions of this paper?,1810.02229,extractive,"the adaptation of a state-of-the-art sequence to sequence (seq2seq) neural system to event detection and classification for Italian in a single step approach, an investigation on the quality of existing Italian word embeddings for this task, a comparison against a state-of-the-art discrete classifier, pre-trained models and scripts running the system","  Based on the provided context information, the paper's contributions can be summarized as follows:
+
+1. The paper investigates the impact of different Italian word embeddings on the performance of a Bi-LSTM network with a CRF classifier for event extraction tasks.
+2. The authors compare five different word embedding models for Italian, including word2vec and GloVe, and analyze their effects on the network's performance.
+3. The paper reports the results of experiments using a dataset from the EVENTI corpus, which consists of contemporary and historical news articles.
+4. The authors find that the choice of word embeddings has a significant impact on the network's performance, with Fastext-It being the best embedding configuration.
+5. The paper discusses the implications of these findings for future research on event extraction and word embeddings, and highlights the importance of considering the specific characteristics of the dataset and the task at hand when selecting word embeddings."
+What are the contributions of this paper?,1810.02229,abstractive,"Adapting a seq2seq neural system to event detection and classification for Italian, investigating the quality of existing embeddings for the task, and comparing against a state-of-the-art discrete classifier.","  Based on the provided context information, the paper's contributions can be summarized as follows:
+
+1. The paper investigates the impact of different Italian word embeddings on the performance of a Bi-LSTM network with a CRF classifier for event extraction tasks.
+2. The authors compare five different word embedding models for Italian, including word2vec and GloVe, and analyze their effects on the network's performance.
+3. The paper reports the results of experiments using a dataset from the EVENTI corpus, which consists of contemporary and historical news articles.
+4. The authors find that the choice of word embeddings has a significant impact on the network's performance, with Fastext-It being the best embedding configuration.
+5. The paper discusses the implications of these findings for future research on event extraction and word embeddings, and highlights the importance of considering the specific characteristics of the dataset and the task at hand when selecting word embeddings."
+How do they decide what is the semantic concept label of particular cluster?,1909.00091,extractive,"Given a cluster, our algorithm proceeds with the following three steps:
+
+Sense disambiguation: The goal is to assign each cluster word to one of its WordNet synsets; let $S$ represent the collection of chosen synsets. We know that these words have been clustered in domain-specific embedding space, which means that in the context of the domain, these words are very close semantically. Thus, we choose $S^*$ that minimizes the total distance between its synsets.
+
+Candidate label generation: In this step, we generate $L$, the set of possible cluster labels. Our approach is simple: we take the union of all hypernyms of the synsets in $S^*$.
+
+Candidate label ranking: Here, we rank the synsets in $L$. We want labels that are as close to all of the synsets in $S^*$ as possible; thus, we score the candidate labels by the sum of their distances to each synset in $S^*$ and we rank them from least to most distance.
+
+In steps 1 and 3, we use WordNet pathwise distance, but we encourage the exploration of other distance representations as well.","  Based on the provided context information, the authors use a combination of domain-specific word embeddings and WordNet to automatically label the clusters. Specifically, they use the following steps to determine the semantic concept label of each cluster:
+
+1. Sense disambiguation: They assign each cluster word to one of its WordNet synsets, which are the possible meanings of the word. They choose the set of synsets that minimizes the total distance between them.
+2. Candidate label generation: They generate a set of possible cluster labels by taking the union of all hypernyms of the synsets in the chosen set.
+3. Candidate label ranking: They rank the candidate labels based on the sum of their distances to each synset in the chosen set. The label with the least distance to all synsets is selected as the final label for the cluster.
+
+In summary, they use a combination of word embeddings and WordNet to determine the semantic concept label of each cluster by identifying the most relevant synsets and ranking them based on their distances to the synsets."
+How do they decide what is the semantic concept label of particular cluster?,1909.00091,extractive,"Candidate label ranking: Here, we rank the synsets in $L$. We want labels that are as close to all of the synsets in $S^*$ as possible; thus, we score the candidate labels by the sum of their distances to each synset in $S^*$ and we rank them from least to most distance.","  Based on the provided context information, the authors use a combination of domain-specific word embeddings and WordNet to automatically label the clusters. Specifically, they use the following steps to determine the semantic concept label of each cluster:
+
+1. Sense disambiguation: They assign each cluster word to one of its WordNet synsets, which are the possible meanings of the word. They choose the set of synsets that minimizes the total distance between them.
+2. Candidate label generation: They generate a set of possible cluster labels by taking the union of all hypernyms of the synsets in the chosen set.
+3. Candidate label ranking: They rank the candidate labels based on the sum of their distances to each synset in the chosen set. The label with the least distance to all synsets is selected as the final label for the cluster.
+
+In summary, they use a combination of word embeddings and WordNet to determine the semantic concept label of each cluster by identifying the most relevant synsets and ranking them based on their distances to the synsets."
+How do they decide what is the semantic concept label of particular cluster?,1909.00091,abstractive,They automatically  label the cluster using WordNet and context-sensitive strengths of domain-specific word embeddings,"  Based on the provided context information, the authors use a combination of domain-specific word embeddings and WordNet to automatically label the clusters. Specifically, they use the following steps to determine the semantic concept label of each cluster:
+
+1. Sense disambiguation: They assign each cluster word to one of its WordNet synsets, which are the possible meanings of the word. They choose the set of synsets that minimizes the total distance between them.
+2. Candidate label generation: They generate a set of possible cluster labels by taking the union of all hypernyms of the synsets in the chosen set.
+3. Candidate label ranking: They rank the candidate labels based on the sum of their distances to each synset in the chosen set. The label with the least distance to all synsets is selected as the final label for the cluster.
+
+In summary, they use a combination of word embeddings and WordNet to determine the semantic concept label of each cluster by identifying the most relevant synsets and ranking them based on their distances to the synsets."
+How do they decide what is the semantic concept label of particular cluster?,1909.00091,extractive,"Our algorithm is similar to BIBREF28's approach, but we extend their method by introducing domain-specific word embeddings for clustering","  Based on the provided context information, the authors use a combination of domain-specific word embeddings and WordNet to automatically label the clusters. Specifically, they use the following steps to determine the semantic concept label of each cluster:
+
+1. Sense disambiguation: They assign each cluster word to one of its WordNet synsets, which are the possible meanings of the word. They choose the set of synsets that minimizes the total distance between them.
+2. Candidate label generation: They generate a set of possible cluster labels by taking the union of all hypernyms of the synsets in the chosen set.
+3. Candidate label ranking: They rank the candidate labels based on the sum of their distances to each synset in the chosen set. The label with the least distance to all synsets is selected as the final label for the cluster.
+
+In summary, they use a combination of word embeddings and WordNet to determine the semantic concept label of each cluster by identifying the most relevant synsets and ranking them based on their distances to the synsets."
+How do data-driven models usually respond to abuse?,1909.04387,abstractive,"either by refusing politely, or, with flirtatious responses, or, by retaliating","  Based on the provided context information, I can provide an answer to the query ""How do data-driven models usually respond to abuse?""
+
+According to the paper you mentioned, data-driven models are systems that use machine learning algorithms to generate responses to user input. These models were tested in a large-scale crowd-sourced evaluation of abuse response strategies. The results showed that some strategies, such as ""polite refusal,"" scored highly across the board, while for other strategies, demographic factors and the severity of the preceding abuse influenced the user's perception of which response was appropriate. Additionally, most data-driven models lagged behind rule-based or commercial systems in terms of their perceived appropriateness.
+
+Therefore, it can be concluded that data-driven models usually respond to abuse by using pre-defined templates or generic responses, which may not always be appropriate or effective in addressing the situation. The paper highlights the need for more effective control mechanisms to improve the perceived appropriateness of data-driven response generation."
+How do data-driven models usually respond to abuse?,1909.04387,extractive,Data-driven systems rank low in general,"  Based on the provided context information, I can provide an answer to the query ""How do data-driven models usually respond to abuse?""
+
+According to the paper you mentioned, data-driven models are systems that use machine learning algorithms to generate responses to user input. These models were tested in a large-scale crowd-sourced evaluation of abuse response strategies. The results showed that some strategies, such as ""polite refusal,"" scored highly across the board, while for other strategies, demographic factors and the severity of the preceding abuse influenced the user's perception of which response was appropriate. Additionally, most data-driven models lagged behind rule-based or commercial systems in terms of their perceived appropriateness.
+
+Therefore, it can be concluded that data-driven models usually respond to abuse by using pre-defined templates or generic responses, which may not always be appropriate or effective in addressing the situation. The paper highlights the need for more effective control mechanisms to improve the perceived appropriateness of data-driven response generation."
+How do data-driven models usually respond to abuse?,1909.04387,extractive,"politely refuse, politely refuses, flirtatious responses","  Based on the provided context information, I can provide an answer to the query ""How do data-driven models usually respond to abuse?""
+
+According to the paper you mentioned, data-driven models are systems that use machine learning algorithms to generate responses to user input. These models were tested in a large-scale crowd-sourced evaluation of abuse response strategies. The results showed that some strategies, such as ""polite refusal,"" scored highly across the board, while for other strategies, demographic factors and the severity of the preceding abuse influenced the user's perception of which response was appropriate. Additionally, most data-driven models lagged behind rule-based or commercial systems in terms of their perceived appropriateness.
+
+Therefore, it can be concluded that data-driven models usually respond to abuse by using pre-defined templates or generic responses, which may not always be appropriate or effective in addressing the situation. The paper highlights the need for more effective control mechanisms to improve the perceived appropriateness of data-driven response generation."
+How do data-driven models usually respond to abuse?,1909.04387,abstractive,flirt; retaliation,"  Based on the provided context information, I can provide an answer to the query ""How do data-driven models usually respond to abuse?""
+
+According to the paper you mentioned, data-driven models are systems that use machine learning algorithms to generate responses to user input. These models were tested in a large-scale crowd-sourced evaluation of abuse response strategies. The results showed that some strategies, such as ""polite refusal,"" scored highly across the board, while for other strategies, demographic factors and the severity of the preceding abuse influenced the user's perception of which response was appropriate. Additionally, most data-driven models lagged behind rule-based or commercial systems in terms of their perceived appropriateness.
+
+Therefore, it can be concluded that data-driven models usually respond to abuse by using pre-defined templates or generic responses, which may not always be appropriate or effective in addressing the situation. The paper highlights the need for more effective control mechanisms to improve the perceived appropriateness of data-driven response generation."
+Was the automatic annotation evaluated?,2003.13016,boolean,No,"  Based on the provided context information, there is no direct mention of an automatic annotation evaluation in the given text. However, there is a reference to an inter-annotator agreement measure of 0.89, which suggests that some form of evaluation was conducted, but it does not specify what type of evaluation was done or if it was automatic. Therefore, I cannot provide a definitive answer to your query."
+Was the automatic annotation evaluated?,2003.13016,boolean,No,"  Based on the provided context information, there is no direct mention of an automatic annotation evaluation in the given text. However, there is a reference to an inter-annotator agreement measure of 0.89, which suggests that some form of evaluation was conducted, but it does not specify what type of evaluation was done or if it was automatic. Therefore, I cannot provide a definitive answer to your query."
+Was the automatic annotation evaluated?,2003.13016,boolean,Yes,"  Based on the provided context information, there is no direct mention of an automatic annotation evaluation in the given text. However, there is a reference to an inter-annotator agreement measure of 0.89, which suggests that some form of evaluation was conducted, but it does not specify what type of evaluation was done or if it was automatic. Therefore, I cannot provide a definitive answer to your query."
+Was the automatic annotation evaluated?,2003.13016,boolean,Yes,"  Based on the provided context information, there is no direct mention of an automatic annotation evaluation in the given text. However, there is a reference to an inter-annotator agreement measure of 0.89, which suggests that some form of evaluation was conducted, but it does not specify what type of evaluation was done or if it was automatic. Therefore, I cannot provide a definitive answer to your query."

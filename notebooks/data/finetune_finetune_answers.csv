@@ -1,0 +1,501 @@
+question,paper_id,answer_type,answer_string,prediction
+How big is the ANTISCAM dataset? ,1911.10742,extractive," 3,044 sentences in 100 dialogs","  Based on the provided context information, I can answer your query as follows:
+
+The AntiScam dataset consists of 220 human-human dialogs, with an average conversation length of 12.45 turns and an average utterance length of 11.13 words."
+How big is the ANTISCAM dataset? ,1911.10742,extractive,220 human-human dialogs,"  Based on the provided context information, I can answer your query as follows:
+
+The AntiScam dataset consists of 220 human-human dialogs, with an average conversation length of 12.45 turns and an average utterance length of 11.13 words."
+How big is the ANTISCAM dataset? ,1911.10742,extractive,"220 human-human dialogs. , 3,044 sentences in 100 dialogs","  Based on the provided context information, I can answer your query as follows:
+
+The AntiScam dataset consists of 220 human-human dialogs, with an average conversation length of 12.45 turns and an average utterance length of 11.13 words."
+How big is the ANTISCAM dataset? ,1911.10742,extractive,220 human-human dialogs. The average conversation length is 12.45 turns and the average utterance length is 11.13 words. ,"  Based on the provided context information, I can answer your query as follows:
+
+The AntiScam dataset consists of 220 human-human dialogs, with an average conversation length of 12.45 turns and an average utterance length of 11.13 words."
+How big is the ANTISCAM dataset? ,1911.10742,extractive,220 human-human dialogs,"  Based on the provided context information, I can answer your query as follows:
+
+The AntiScam dataset consists of 220 human-human dialogs, with an average conversation length of 12.45 turns and an average utterance length of 11.13 words."
+How big is the ANTISCAM dataset? ,1911.10742,extractive,"3,044 sentences in 100 dialogs","  Based on the provided context information, I can answer your query as follows:
+
+The AntiScam dataset consists of 220 human-human dialogs, with an average conversation length of 12.45 turns and an average utterance length of 11.13 words."
+How is intent annotated?,1911.10742,abstractive,using a role-playing task on the Amazon Mechanical Turk platform and collecting typed conversations,"  Based on the provided context information, I can answer your query about intent annotation. In the context of non-collaborative tasks, intent annotation involves identifying and categorizing the intents present in a given utterance or conversation turn. The hierarchical intent annotation scheme proposed in the context information separates on-task and off-task intents, with on-task intents being specific to each task and off-task intents being more general and common to all tasks.
+
+On-task intents are key actions that vary among different tasks, and are specifically defined for each task. For example, in the AntiScam dataset, elicitation, providing information, and refusal are on-task intents. In the PersuasionForGood dataset, nine on-task intents are defined based on the original PersuasionForGood dialog act annotation scheme, all related to donation actions.
+
+Off-task intents, on the other hand, are more general and common to all tasks, and include six general intents (open question, yes/no question, positive answer, negative answer, responsive statement, and non-responsive statement) and six additional social intents (greeting, closing,"
+How is intent annotated?,1911.10742,abstractive,"Separate on-task and off task intents and annotate on task for data set specific intents, while annotating  off task intents with a fixed set of general intents.","  Based on the provided context information, I can answer your query about intent annotation. In the context of non-collaborative tasks, intent annotation involves identifying and categorizing the intents present in a given utterance or conversation turn. The hierarchical intent annotation scheme proposed in the context information separates on-task and off-task intents, with on-task intents being specific to each task and off-task intents being more general and common to all tasks.
+
+On-task intents are key actions that vary among different tasks, and are specifically defined for each task. For example, in the AntiScam dataset, elicitation, providing information, and refusal are on-task intents. In the PersuasionForGood dataset, nine on-task intents are defined based on the original PersuasionForGood dialog act annotation scheme, all related to donation actions.
+
+Off-task intents, on the other hand, are more general and common to all tasks, and include six general intents (open question, yes/no question, positive answer, negative answer, responsive statement, and non-responsive statement) and six additional social intents (greeting, closing,"
+How is intent annotated?,1911.10742,abstractive,"On-task dialog are annotated as on-task intents , the other dialog are annotated as pre-defined off-task intents.","  Based on the provided context information, I can answer your query about intent annotation. In the context of non-collaborative tasks, intent annotation involves identifying and categorizing the intents present in a given utterance or conversation turn. The hierarchical intent annotation scheme proposed in the context information separates on-task and off-task intents, with on-task intents being specific to each task and off-task intents being more general and common to all tasks.
+
+On-task intents are key actions that vary among different tasks, and are specifically defined for each task. For example, in the AntiScam dataset, elicitation, providing information, and refusal are on-task intents. In the PersuasionForGood dataset, nine on-task intents are defined based on the original PersuasionForGood dialog act annotation scheme, all related to donation actions.
+
+Off-task intents, on the other hand, are more general and common to all tasks, and include six general intents (open question, yes/no question, positive answer, negative answer, responsive statement, and non-responsive statement) and six additional social intents (greeting, closing,"
+How is intent annotated?,1911.10742,extractive,"separate on-task and off-task intents, on-task intents are key actions that can vary among different tasks, we need to specifically define on-task intents for each task, off-task content is too general to design task-specific intents, we choose common dialog acts as the categories","  Based on the provided context information, I can answer your query about intent annotation. In the context of non-collaborative tasks, intent annotation involves identifying and categorizing the intents present in a given utterance or conversation turn. The hierarchical intent annotation scheme proposed in the context information separates on-task and off-task intents, with on-task intents being specific to each task and off-task intents being more general and common to all tasks.
+
+On-task intents are key actions that vary among different tasks, and are specifically defined for each task. For example, in the AntiScam dataset, elicitation, providing information, and refusal are on-task intents. In the PersuasionForGood dataset, nine on-task intents are defined based on the original PersuasionForGood dialog act annotation scheme, all related to donation actions.
+
+Off-task intents, on the other hand, are more general and common to all tasks, and include six general intents (open question, yes/no question, positive answer, negative answer, responsive statement, and non-responsive statement) and six additional social intents (greeting, closing,"
+How is intent annotated?,1911.10742,extractive,"we design a hierarchical intent annotation scheme for non-collaborative tasks. We first separate on-task and off-task intents. As on-task intents are key actions that can vary among different tasks, we need to specifically define on-task intents for each task. On the other hand, since off-task content is too general to design task-specific intents, we choose common dialog acts as the categories. , In the intent annotation scheme shown in Table TABREF2, we list the designed intent annotation scheme for the newly collected AntiScam dataset and the PersuasionForGood dataset. We first define on-task intents for the datasets, which are key actions in the task. Since our AntiScam focuses on understanding and reacting towards elicitations, we define elicitation, providing_information and refusal as on-task intents. In the PersuasionForGood dataset, we define nine on-task intents in Table TABREF2 based on the original PersuasionForGood dialog act annotation scheme, For specific tasks, we also design a semantic slot annotation scheme for annotating sentences based on their semantic content. We identify 13 main semantic slots in the anti-scam task, for example, credit card numbers. We present a detailed semantic slot annotation in Table TABREF3. Following BIBREF1, we segment each conversation turn into single sentences and then annotate each sentence rather than turns.","  Based on the provided context information, I can answer your query about intent annotation. In the context of non-collaborative tasks, intent annotation involves identifying and categorizing the intents present in a given utterance or conversation turn. The hierarchical intent annotation scheme proposed in the context information separates on-task and off-task intents, with on-task intents being specific to each task and off-task intents being more general and common to all tasks.
+
+On-task intents are key actions that vary among different tasks, and are specifically defined for each task. For example, in the AntiScam dataset, elicitation, providing information, and refusal are on-task intents. In the PersuasionForGood dataset, nine on-task intents are defined based on the original PersuasionForGood dialog act annotation scheme, all related to donation actions.
+
+Off-task intents, on the other hand, are more general and common to all tasks, and include six general intents (open question, yes/no question, positive answer, negative answer, responsive statement, and non-responsive statement) and six additional social intents (greeting, closing,"
+How is intent annotated?,1911.10742,abstractive,using a hierarchical scheme where on-task intents uses task-related intents for representation and off-task intents chooses dialog acts that convey the syntax information,"  Based on the provided context information, I can answer your query about intent annotation. In the context of non-collaborative tasks, intent annotation involves identifying and categorizing the intents present in a given utterance or conversation turn. The hierarchical intent annotation scheme proposed in the context information separates on-task and off-task intents, with on-task intents being specific to each task and off-task intents being more general and common to all tasks.
+
+On-task intents are key actions that vary among different tasks, and are specifically defined for each task. For example, in the AntiScam dataset, elicitation, providing information, and refusal are on-task intents. In the PersuasionForGood dataset, nine on-task intents are defined based on the original PersuasionForGood dialog act annotation scheme, all related to donation actions.
+
+Off-task intents, on the other hand, are more general and common to all tasks, and include six general intents (open question, yes/no question, positive answer, negative answer, responsive statement, and non-responsive statement) and six additional social intents (greeting, closing,"
+What are the baselines outperformed by this work?,1911.10742,abstractive,TransferTransfo and Hybrid ,"  Based on the provided context information, the baselines that have been outperformed by this work are:
+
+1. TransferTransfo
+2. Hybrid model
+
+These baselines were compared to the proposed method (MISSA) on both the newly proposed AntiScam dataset and an existing PersuasionForGood dataset. The results show that MISSA outperforms these baselines on almost all metrics on both datasets, indicating that it is a more effective approach for non-collaborative dialog systems."
+What are the baselines outperformed by this work?,1911.10742,extractive,"TransferTransfo,  hybrid model","  Based on the provided context information, the baselines that have been outperformed by this work are:
+
+1. TransferTransfo
+2. Hybrid model
+
+These baselines were compared to the proposed method (MISSA) on both the newly proposed AntiScam dataset and an existing PersuasionForGood dataset. The results show that MISSA outperforms these baselines on almost all metrics on both datasets, indicating that it is a more effective approach for non-collaborative dialog systems."
+What are the baselines outperformed by this work?,1911.10742,extractive,"TransferTransfo, Hybrid","  Based on the provided context information, the baselines that have been outperformed by this work are:
+
+1. TransferTransfo
+2. Hybrid model
+
+These baselines were compared to the proposed method (MISSA) on both the newly proposed AntiScam dataset and an existing PersuasionForGood dataset. The results show that MISSA outperforms these baselines on almost all metrics on both datasets, indicating that it is a more effective approach for non-collaborative dialog systems."
+What are the baselines outperformed by this work?,1911.10742,extractive,"TransferTransfo, Hybrid","  Based on the provided context information, the baselines that have been outperformed by this work are:
+
+1. TransferTransfo
+2. Hybrid model
+
+These baselines were compared to the proposed method (MISSA) on both the newly proposed AntiScam dataset and an existing PersuasionForGood dataset. The results show that MISSA outperforms these baselines on almost all metrics on both datasets, indicating that it is a more effective approach for non-collaborative dialog systems."
+What are the baselines outperformed by this work?,1911.10742,extractive,"TransferTransfo The vanilla TransferTransfo framework, Hybrid Following BIBREF4 yu2017learning, we also build a hybrid dialog system by combining vanilla TransferTransfo and MISSA","  Based on the provided context information, the baselines that have been outperformed by this work are:
+
+1. TransferTransfo
+2. Hybrid model
+
+These baselines were compared to the proposed method (MISSA) on both the newly proposed AntiScam dataset and an existing PersuasionForGood dataset. The results show that MISSA outperforms these baselines on almost all metrics on both datasets, indicating that it is a more effective approach for non-collaborative dialog systems."
+What are the baselines outperformed by this work?,1911.10742,extractive,"TransferTransfo, Hybrid","  Based on the provided context information, the baselines that have been outperformed by this work are:
+
+1. TransferTransfo
+2. Hybrid model
+
+These baselines were compared to the proposed method (MISSA) on both the newly proposed AntiScam dataset and an existing PersuasionForGood dataset. The results show that MISSA outperforms these baselines on almost all metrics on both datasets, indicating that it is a more effective approach for non-collaborative dialog systems."
+What are the evaluation metrics and criteria used to evaluate the model performance?,1911.10742,extractive,"Perplexity, Response-Intent Prediction (RIP), Response-Slot Prediction (RSP), Extended Response-Intent Prediction (ERIP) , Extended Response-Slot Prediction (ERSP) , Fluency, Coherence , Engagement, Dialog length , Task Success Score (TaskSuc)","  Based on the provided context information, the evaluation metrics and criteria used to evaluate the model performance are:
+
+1. Fluency: This metric assesses the quality of the generated sentences and is calculated based on the frequency of rare words and the average sentence length.
+2. Coherence: This metric focuses on the logical consistency between sentences in each turn and is calculated based on the transition probability between sentences.
+3. Engagement: This metric measures the willingness of the attackers to continue interacting with the system, and is calculated based on the average length of the dialogues.
+4. Task Success Score (TaskSuc): This metric assesses the ability of the system to elicit information from the attacker, and is calculated based on the type of information obtained from the attacker.
+5. Perplexity: This metric measures the error rate of the expected word and is used to evaluate the model performance.
+6. Response-Intent Prediction (RIP) & Response-Slot Prediction (RSP): These metrics assess the ability of the system to predict the intent and slots of the attacker's responses.
+7. Extended Response-Intent Prediction (ERIP"
+What are the evaluation metrics and criteria used to evaluate the model performance?,1911.10742,extractive,"Perplexity , Response-Intent Prediction (RIP), Response-Slot Prediction (RSP), Extended Response-Intent Prediction (ERIP), Extended Response-Slot Prediction (ERSP), Fluency , Coherence , Engagement , Dialog length (Length) , Task Success Score (TaskSuc)","  Based on the provided context information, the evaluation metrics and criteria used to evaluate the model performance are:
+
+1. Fluency: This metric assesses the quality of the generated sentences and is calculated based on the frequency of rare words and the average sentence length.
+2. Coherence: This metric focuses on the logical consistency between sentences in each turn and is calculated based on the transition probability between sentences.
+3. Engagement: This metric measures the willingness of the attackers to continue interacting with the system, and is calculated based on the average length of the dialogues.
+4. Task Success Score (TaskSuc): This metric assesses the ability of the system to elicit information from the attacker, and is calculated based on the type of information obtained from the attacker.
+5. Perplexity: This metric measures the error rate of the expected word and is used to evaluate the model performance.
+6. Response-Intent Prediction (RIP) & Response-Slot Prediction (RSP): These metrics assess the ability of the system to predict the intent and slots of the attacker's responses.
+7. Extended Response-Intent Prediction (ERIP"
+What are the evaluation metrics and criteria used to evaluate the model performance?,1911.10742,extractive,"Fluency Fluency is used to explore different models' language generation quality.
+
+Coherence Different from single sentence's fluency, coherence focuses more on the logical consistency between sentences in each turn.
+
+Engagement In the anti-scam scenario, one of our missions is to keep engaging with the attackers to waste their time. So we directly ask volunteers (attackers) to what extend they would like to continue chatting with the system.
+
+Dialog length (Length) Engagement is a subjective metric. Anti-scam system's goal is to engage user in the conversation longer in order to limit their harm to other potential victims. So we count the dialog length as another metric to evaluate system performance.
+
+Task Success Score (TaskSuc) The other goal of the anti-scam system is to elicit attacker's personal information. We count the average type of information (name, address and phone number) that the system obtained from attackers as the task success score.","  Based on the provided context information, the evaluation metrics and criteria used to evaluate the model performance are:
+
+1. Fluency: This metric assesses the quality of the generated sentences and is calculated based on the frequency of rare words and the average sentence length.
+2. Coherence: This metric focuses on the logical consistency between sentences in each turn and is calculated based on the transition probability between sentences.
+3. Engagement: This metric measures the willingness of the attackers to continue interacting with the system, and is calculated based on the average length of the dialogues.
+4. Task Success Score (TaskSuc): This metric assesses the ability of the system to elicit information from the attacker, and is calculated based on the type of information obtained from the attacker.
+5. Perplexity: This metric measures the error rate of the expected word and is used to evaluate the model performance.
+6. Response-Intent Prediction (RIP) & Response-Slot Prediction (RSP): These metrics assess the ability of the system to predict the intent and slots of the attacker's responses.
+7. Extended Response-Intent Prediction (ERIP"
+What are the evaluation metrics and criteria used to evaluate the model performance?,1911.10742,abstractive,"Automatic evaluation metrics (Perplexity (PPl), Response-Intent Prediction (RIP), Response-Slot Prediction(RSP), Extended Response-Intent Prediction(ERIP),  Extended Response-Slot Prediction (ERSP)) and Human Evaluation Metrics (Fluency, Coherence, Engagement, Lenhth, TaskSuc)","  Based on the provided context information, the evaluation metrics and criteria used to evaluate the model performance are:
+
+1. Fluency: This metric assesses the quality of the generated sentences and is calculated based on the frequency of rare words and the average sentence length.
+2. Coherence: This metric focuses on the logical consistency between sentences in each turn and is calculated based on the transition probability between sentences.
+3. Engagement: This metric measures the willingness of the attackers to continue interacting with the system, and is calculated based on the average length of the dialogues.
+4. Task Success Score (TaskSuc): This metric assesses the ability of the system to elicit information from the attacker, and is calculated based on the type of information obtained from the attacker.
+5. Perplexity: This metric measures the error rate of the expected word and is used to evaluate the model performance.
+6. Response-Intent Prediction (RIP) & Response-Slot Prediction (RSP): These metrics assess the ability of the system to predict the intent and slots of the attacker's responses.
+7. Extended Response-Intent Prediction (ERIP"
+What are the evaluation metrics and criteria used to evaluate the model performance?,1911.10742,abstractive,"Automatic metrics used: Perplexity, RIP, RSP, ERIP ERSP.
+Human evaluation metrics used: Fluency, Coherence, Engagement, Dialog length and Task Success Score.","  Based on the provided context information, the evaluation metrics and criteria used to evaluate the model performance are:
+
+1. Fluency: This metric assesses the quality of the generated sentences and is calculated based on the frequency of rare words and the average sentence length.
+2. Coherence: This metric focuses on the logical consistency between sentences in each turn and is calculated based on the transition probability between sentences.
+3. Engagement: This metric measures the willingness of the attackers to continue interacting with the system, and is calculated based on the average length of the dialogues.
+4. Task Success Score (TaskSuc): This metric assesses the ability of the system to elicit information from the attacker, and is calculated based on the type of information obtained from the attacker.
+5. Perplexity: This metric measures the error rate of the expected word and is used to evaluate the model performance.
+6. Response-Intent Prediction (RIP) & Response-Slot Prediction (RSP): These metrics assess the ability of the system to predict the intent and slots of the attacker's responses.
+7. Extended Response-Intent Prediction (ERIP"
+What is the accuracy of this model compared to sota?,1904.09131,none,Unacceptable,"  Based on the provided context information, I cannot compare the accuracy of the model to the state of the art (sota) as there is no mention of any specific model or comparison in the text. The text only discusses the features used in entity linking and the challenges of using Wikidata for entity disambiguation. Without more information, it is not possible to determine the accuracy of the model compared to other models or the sota."
+What is the accuracy of this model compared to sota?,1904.09131,abstractive,"The model improves the state of the art performance for the ISTEX dataset (F1 micro: 0.870, F1 macro: 0.858) and for the Microposts 2016 dataset (F1 micro:  0.087).","  Based on the provided context information, I cannot compare the accuracy of the model to the state of the art (sota) as there is no mention of any specific model or comparison in the text. The text only discusses the features used in entity linking and the challenges of using Wikidata for entity disambiguation. Without more information, it is not possible to determine the accuracy of the model compared to other models or the sota."
+What is the accuracy of this model compared to sota?,1904.09131,abstractive,"The micro and macro f1-scores of this model are 0.482 and 0.399 on the AIDA-CoNLL dataset, 0.087 and 0.515 on the Microposts 2016 dataset, 0.870 and 0.858 on the ISTEX-1000 dataset, 0.335 and 0.310 on the RSS-500 dataset","  Based on the provided context information, I cannot compare the accuracy of the model to the state of the art (sota) as there is no mention of any specific model or comparison in the text. The text only discusses the features used in entity linking and the challenges of using Wikidata for entity disambiguation. Without more information, it is not possible to determine the accuracy of the model compared to other models or the sota."
+What is the accuracy of this model compared to sota?,1904.09131,abstractive,The accuracy ,"  Based on the provided context information, I cannot compare the accuracy of the model to the state of the art (sota) as there is no mention of any specific model or comparison in the text. The text only discusses the features used in entity linking and the challenges of using Wikidata for entity disambiguation. Without more information, it is not possible to determine the accuracy of the model compared to other models or the sota."
+What is the accuracy of this model compared to sota?,1904.09131,none,Unacceptable,"  Based on the provided context information, I cannot compare the accuracy of the model to the state of the art (sota) as there is no mention of any specific model or comparison in the text. The text only discusses the features used in entity linking and the challenges of using Wikidata for entity disambiguation. Without more information, it is not possible to determine the accuracy of the model compared to other models or the sota."
+What previous methods do they compare against?,1611.06322,extractive,"two state-of-the-art early rumour detection baselines Liu et. al (2015) and Yang et. al (2012), which we re-implemented., Yang et. al (2012), dubbed Yang, because they proposed a feature set for early detection tailored to Sina Weibo and were used as a state-of-the-art baseline before by Liu et. al (2015). The algorithm by Liu et. al (2015), dubbed Liu, is said to operate in real-time and outperformed Yang, when only considering features available on Twitter.","  Based on the provided context information, the authors compare their approach against previous methods that rely on repeated signals to form propagation graphs or clustering methods. These methods are blind to less popular rumours that don't go viral, and therefore, the authors propose a novelty-based feature set that requires only a single message to detect even the smallest rumours."
+What previous methods do they compare against?,1611.06322,extractive,"Liu et. al (2015), Yang et. al (2012)","  Based on the provided context information, the authors compare their approach against previous methods that rely on repeated signals to form propagation graphs or clustering methods. These methods are blind to less popular rumours that don't go viral, and therefore, the authors propose a novelty-based feature set that requires only a single message to detect even the smallest rumours."
+What previous methods do they compare against?,1611.06322,abstractive,"They compare against two other methods that apply message-,user-, topic- and propagation-based features and rely on an SVM classifier. One perform early rumor detection and operates with a delay of 24 hrs, while the other requires a cluster of 5 repeated messages to judge them for rumors.","  Based on the provided context information, the authors compare their approach against previous methods that rely on repeated signals to form propagation graphs or clustering methods. These methods are blind to less popular rumours that don't go viral, and therefore, the authors propose a novelty-based feature set that requires only a single message to detect even the smallest rumours."
+What previous methods do they compare against?,1611.06322,extractive,"Liu et. al (2015) , Yang et. al (2012)","  Based on the provided context information, the authors compare their approach against previous methods that rely on repeated signals to form propagation graphs or clustering methods. These methods are blind to less popular rumours that don't go viral, and therefore, the authors propose a novelty-based feature set that requires only a single message to detect even the smallest rumours."
+What previous methods do they compare against?,1611.06322,abstractive,Liu et al. (2015) and Yang et al. (2012),"  Based on the provided context information, the authors compare their approach against previous methods that rely on repeated signals to form propagation graphs or clustering methods. These methods are blind to less popular rumours that don't go viral, and therefore, the authors propose a novelty-based feature set that requires only a single message to detect even the smallest rumours."
+What is their evaluation metric?,1611.06322,extractive,"accuracy to evaluate effectiveness, Detection Error Trade-off (DET) curves, which show the trade-off between miss and false alarm probability, throughput per second","  Based on the provided context information, the evaluation metric used in the paper is accuracy. The authors use accuracy to evaluate the effectiveness of the proposed features for instantaneous rumour detection. They also use the standard TDT evaluation procedure, which includes DET curves, to provide a more comprehensive illustration of the system's performance."
+What is their evaluation metric?,1611.06322,abstractive,"The metrics are accuracy, detection error trade-off curves and computing efficiency","  Based on the provided context information, the evaluation metric used in the paper is accuracy. The authors use accuracy to evaluate the effectiveness of the proposed features for instantaneous rumour detection. They also use the standard TDT evaluation procedure, which includes DET curves, to provide a more comprehensive illustration of the system's performance."
+What is their evaluation metric?,1611.06322,extractive,"accuracy , Detection Error Trade-off (DET) curves, efficiency of computing the proposed features, measured by the throughput per second","  Based on the provided context information, the evaluation metric used in the paper is accuracy. The authors use accuracy to evaluate the effectiveness of the proposed features for instantaneous rumour detection. They also use the standard TDT evaluation procedure, which includes DET curves, to provide a more comprehensive illustration of the system's performance."
+What is their evaluation metric?,1611.06322,extractive,"accuracy to evaluate effectiveness, Detection Error Trade-off (DET) curves, which show the trade-off between miss and false alarm probability, throughput per second","  Based on the provided context information, the evaluation metric used in the paper is accuracy. The authors use accuracy to evaluate the effectiveness of the proposed features for instantaneous rumour detection. They also use the standard TDT evaluation procedure, which includes DET curves, to provide a more comprehensive illustration of the system's performance."
+What is their evaluation metric?,1611.06322,abstractive,Accuracy compared to two state-of-the-art baselines,"  Based on the provided context information, the evaluation metric used in the paper is accuracy. The authors use accuracy to evaluate the effectiveness of the proposed features for instantaneous rumour detection. They also use the standard TDT evaluation procedure, which includes DET curves, to provide a more comprehensive illustration of the system's performance."
+Are their methods fully supervised?,1611.06322,abstractive,No. They additionally use similarity to previously detected rumors to make the decision of whether a document is likely to be a rumor,"  Based on the provided context information, the methods described in the passage are not fully supervised. The passage states that the algorithm by Liu et al. (2015) is said to operate in real-time and outperformed Yang when only considering features available on Twitter, but it does not provide any information about the supervision of the methods. Additionally, the passage mentions that the novelty-based features are computed based on the presence of information unconfirmed by official media, which suggests that the methods are at least partially unsupervised. Therefore, the answer to the query is ""no,"" the methods are not fully supervised."
+Do they build a dataset of rumors?,1611.06322,boolean,Yes,"  Based on the provided context information, it appears that the authors did collect a dataset of rumors for their research on real-time rumor detection on social media. They mention that they created their own dataset by randomly collecting 200 news articles from Xinhua News Agency, and then used an official rumor debunking service to obtain a high-quality set of 202 confirmed rumors. Additionally, they gathered 202 non-rumors using the public Sina Weibo API and had human annotators judge them to ensure that they did not contain any rumors."
+Do they build a dataset of rumors?,1611.06322,boolean,Yes,"  Based on the provided context information, it appears that the authors did collect a dataset of rumors for their research on real-time rumor detection on social media. They mention that they created their own dataset by randomly collecting 200 news articles from Xinhua News Agency, and then used an official rumor debunking service to obtain a high-quality set of 202 confirmed rumors. Additionally, they gathered 202 non-rumors using the public Sina Weibo API and had human annotators judge them to ensure that they did not contain any rumors."
+Do they build a dataset of rumors?,1611.06322,boolean,Yes,"  Based on the provided context information, it appears that the authors did collect a dataset of rumors for their research on real-time rumor detection on social media. They mention that they created their own dataset by randomly collecting 200 news articles from Xinhua News Agency, and then used an official rumor debunking service to obtain a high-quality set of 202 confirmed rumors. Additionally, they gathered 202 non-rumors using the public Sina Weibo API and had human annotators judge them to ensure that they did not contain any rumors."
+Do they build a dataset of rumors?,1611.06322,abstractive,"Yes, consisting of trusted resources, rumours and non-rumours","  Based on the provided context information, it appears that the authors did collect a dataset of rumors for their research on real-time rumor detection on social media. They mention that they created their own dataset by randomly collecting 200 news articles from Xinhua News Agency, and then used an official rumor debunking service to obtain a high-quality set of 202 confirmed rumors. Additionally, they gathered 202 non-rumors using the public Sina Weibo API and had human annotators judge them to ensure that they did not contain any rumors."
+Do they build a dataset of rumors?,1611.06322,boolean,Yes,"  Based on the provided context information, it appears that the authors did collect a dataset of rumors for their research on real-time rumor detection on social media. They mention that they created their own dataset by randomly collecting 200 news articles from Xinhua News Agency, and then used an official rumor debunking service to obtain a high-quality set of 202 confirmed rumors. Additionally, they gathered 202 non-rumors using the public Sina Weibo API and had human annotators judge them to ensure that they did not contain any rumors."
+What languages do they evaluate their methods on?,1611.06322,abstractive,Chinese,"  Based on the provided context information, the authors of the paper evaluate their rumour detection methods on Chinese social media, specifically on Sina Weibo, a Chinese social media service with over 200 million active users. Therefore, the answer to the query ""What languages do they evaluate their methods on?"" is:
+
+* Chinese"
+What languages do they evaluate their methods on?,1611.06322,abstractive,Mandarin Chinese,"  Based on the provided context information, the authors of the paper evaluate their rumour detection methods on Chinese social media, specifically on Sina Weibo, a Chinese social media service with over 200 million active users. Therefore, the answer to the query ""What languages do they evaluate their methods on?"" is:
+
+* Chinese"
+What languages do they evaluate their methods on?,1611.06322,extractive,Chinese,"  Based on the provided context information, the authors of the paper evaluate their rumour detection methods on Chinese social media, specifically on Sina Weibo, a Chinese social media service with over 200 million active users. Therefore, the answer to the query ""What languages do they evaluate their methods on?"" is:
+
+* Chinese"
+What languages do they evaluate their methods on?,1611.06322,abstractive,Mandarin Chinese (see table 3),"  Based on the provided context information, the authors of the paper evaluate their rumour detection methods on Chinese social media, specifically on Sina Weibo, a Chinese social media service with over 200 million active users. Therefore, the answer to the query ""What languages do they evaluate their methods on?"" is:
+
+* Chinese"
+What languages do they evaluate their methods on?,1611.06322,extractive,Chinese,"  Based on the provided context information, the authors of the paper evaluate their rumour detection methods on Chinese social media, specifically on Sina Weibo, a Chinese social media service with over 200 million active users. Therefore, the answer to the query ""What languages do they evaluate their methods on?"" is:
+
+* Chinese"
+How do they define rumors?,1611.06322,extractive,the presence of information unconfirmed by the official media is construed as an indication of being a rumour. ,"  Based on the provided context information, the definition of a rumor is as follows:
+
+""A rumor is information of doubtful or unconfirmed truth."" (Cambridge Dictionary)
+
+In other words, a rumor is something that is not confirmed or verified and may be untrue or exaggerated. It can be described as information that is uncertain or questionable in nature."
+How do they define rumors?,1611.06322,extractive,information of doubtful or unconfirmed truth,"  Based on the provided context information, the definition of a rumor is as follows:
+
+""A rumor is information of doubtful or unconfirmed truth."" (Cambridge Dictionary)
+
+In other words, a rumor is something that is not confirmed or verified and may be untrue or exaggerated. It can be described as information that is uncertain or questionable in nature."
+How do they define rumors?,1611.06322,abstractive,information that is not fact- and background-checked and thoroughly investigated for authenticity,"  Based on the provided context information, the definition of a rumor is as follows:
+
+""A rumor is information of doubtful or unconfirmed truth."" (Cambridge Dictionary)
+
+In other words, a rumor is something that is not confirmed or verified and may be untrue or exaggerated. It can be described as information that is uncertain or questionable in nature."
+How do they define rumors?,1611.06322,abstractive,Information of doubtful or unconfirmed truth,"  Based on the provided context information, the definition of a rumor is as follows:
+
+""A rumor is information of doubtful or unconfirmed truth."" (Cambridge Dictionary)
+
+In other words, a rumor is something that is not confirmed or verified and may be untrue or exaggerated. It can be described as information that is uncertain or questionable in nature."
+What baselines did they compare with?,1604.02038,extractive,"LDA, Doc-NADE, HTMM, GMNTM","  Based on the provided context information, the authors compared the following baselines with their proposed SLRTM model:
+
+1. Latent Dirichlet Allocation (LDA)
+2. Hierarchical Topic Models (HTM)
+3. Supervised Topic Models (STM)
+4. Neural Network-based Topic Models (NNTM)
+5. Gated Mixture of Non-negative Topics (GMNTM)
+6. Document-NADE (Doc-NADE)
+
+These baselines are representative of various topic modeling approaches, including both traditional and deep learning-based methods. The authors compared the performance of their proposed SLRTM model with these baselines to demonstrate its effectiveness in topic modeling."
+What baselines did they compare with?,1604.02038,extractive,"LDA, Doc-NADE, HTMM, GMNTM","  Based on the provided context information, the authors compared the following baselines with their proposed SLRTM model:
+
+1. Latent Dirichlet Allocation (LDA)
+2. Hierarchical Topic Models (HTM)
+3. Supervised Topic Models (STM)
+4. Neural Network-based Topic Models (NNTM)
+5. Gated Mixture of Non-negative Topics (GMNTM)
+6. Document-NADE (Doc-NADE)
+
+These baselines are representative of various topic modeling approaches, including both traditional and deep learning-based methods. The authors compared the performance of their proposed SLRTM model with these baselines to demonstrate its effectiveness in topic modeling."
+What baselines did they compare with?,1604.02038,extractive,"LDA BIBREF2, Doc-NADE BIBREF24, HTMM BIBREF9, GMNTM BIBREF12","  Based on the provided context information, the authors compared the following baselines with their proposed SLRTM model:
+
+1. Latent Dirichlet Allocation (LDA)
+2. Hierarchical Topic Models (HTM)
+3. Supervised Topic Models (STM)
+4. Neural Network-based Topic Models (NNTM)
+5. Gated Mixture of Non-negative Topics (GMNTM)
+6. Document-NADE (Doc-NADE)
+
+These baselines are representative of various topic modeling approaches, including both traditional and deep learning-based methods. The authors compared the performance of their proposed SLRTM model with these baselines to demonstrate its effectiveness in topic modeling."
+What baselines did they compare with?,1604.02038,extractive,"LDA BIBREF2 , Doc-NADE BIBREF24, HTMM BIBREF9, GMNTM BIBREF12, LDA BIBREF2 , Doc-NADE BIBREF24, HTMM BIBREF9 , GMNTM BIBREF12","  Based on the provided context information, the authors compared the following baselines with their proposed SLRTM model:
+
+1. Latent Dirichlet Allocation (LDA)
+2. Hierarchical Topic Models (HTM)
+3. Supervised Topic Models (STM)
+4. Neural Network-based Topic Models (NNTM)
+5. Gated Mixture of Non-negative Topics (GMNTM)
+6. Document-NADE (Doc-NADE)
+
+These baselines are representative of various topic modeling approaches, including both traditional and deep learning-based methods. The authors compared the performance of their proposed SLRTM model with these baselines to demonstrate its effectiveness in topic modeling."
+Which tasks are explored in this paper?,1604.02038,extractive,generative model evaluation (i.e. test set perplexity) and document classification,"  Based on the provided context information, the tasks explored in this paper are:
+
+1. Generative document evaluation task
+2. Document classification task
+3. Topic2sentence task (personalized short text conversation)"
+Which tasks are explored in this paper?,1604.02038,extractive,"generative model evaluation, document classification","  Based on the provided context information, the tasks explored in this paper are:
+
+1. Generative document evaluation task
+2. Document classification task
+3. Topic2sentence task (personalized short text conversation)"
+Which tasks are explored in this paper?,1604.02038,extractive,"generative model evaluation (i.e. test set perplexity), document classification","  Based on the provided context information, the tasks explored in this paper are:
+
+1. Generative document evaluation task
+2. Document classification task
+3. Topic2sentence task (personalized short text conversation)"
+Which tasks are explored in this paper?,1604.02038,extractive,"generative document evaluation task, document classification task, topic2sentence task","  Based on the provided context information, the tasks explored in this paper are:
+
+1. Generative document evaluation task
+2. Document classification task
+3. Topic2sentence task (personalized short text conversation)"
+Which NER dataset do they use?,1911.04474,extractive,"CoNLL2003, OntoNotes 5.0, OntoNotes 4.0., Chinese NER dataset MSRA, Weibo NER, Resume NER","  Based on the context information provided, the authors of the paper used four English NER datasets (CoNLL2003, OntoNotes 5.0, BIBREF35, and Resume NER) and four Chinese NER datasets (MSRA, Weibo NER, and two versions of the CoNLL2003 dataset). Therefore, the answer to the query ""Which NER dataset do they use?"" is:
+
+* English NER datasets: CoNLL2003, OntoNotes 5.0, BIBREF35, and Resume NER.
+* Chinese NER datasets: MSRA, Weibo NER, and two versions of the CoNLL2003 dataset."
+Which NER dataset do they use?,1911.04474,extractive,"CoNLL2003 , OntoNotes 5.0, OntoNotes 4.0, MSRA , Weibo, Resume ","  Based on the context information provided, the authors of the paper used four English NER datasets (CoNLL2003, OntoNotes 5.0, BIBREF35, and Resume NER) and four Chinese NER datasets (MSRA, Weibo NER, and two versions of the CoNLL2003 dataset). Therefore, the answer to the query ""Which NER dataset do they use?"" is:
+
+* English NER datasets: CoNLL2003, OntoNotes 5.0, BIBREF35, and Resume NER.
+* Chinese NER datasets: MSRA, Weibo NER, and two versions of the CoNLL2003 dataset."
+Which NER dataset do they use?,1911.04474,extractive,"CoNLL2003, OntoNotes 5.0, OntoNotes 4.0, MSRA, Weibo NER, Resume NER","  Based on the context information provided, the authors of the paper used four English NER datasets (CoNLL2003, OntoNotes 5.0, BIBREF35, and Resume NER) and four Chinese NER datasets (MSRA, Weibo NER, and two versions of the CoNLL2003 dataset). Therefore, the answer to the query ""Which NER dataset do they use?"" is:
+
+* English NER datasets: CoNLL2003, OntoNotes 5.0, BIBREF35, and Resume NER.
+* Chinese NER datasets: MSRA, Weibo NER, and two versions of the CoNLL2003 dataset."
+Which NER dataset do they use?,1911.04474,extractive,"CoNLL2003, OntoNotes 5.0, BIBREF35 released OntoNotes 4.0. In this paper, we use the Chinese part, Chinese NER dataset MSRA, Weibo NER, Resume NER","  Based on the context information provided, the authors of the paper used four English NER datasets (CoNLL2003, OntoNotes 5.0, BIBREF35, and Resume NER) and four Chinese NER datasets (MSRA, Weibo NER, and two versions of the CoNLL2003 dataset). Therefore, the answer to the query ""Which NER dataset do they use?"" is:
+
+* English NER datasets: CoNLL2003, OntoNotes 5.0, BIBREF35, and Resume NER.
+* Chinese NER datasets: MSRA, Weibo NER, and two versions of the CoNLL2003 dataset."
+How do they incorporate direction and relative distance in attention?,1911.04474,abstractive,by using an relative sinusodial positional embedding and unscaled attention,"  Based on the given context information, to incorporate direction and relative distance in attention, the authors of the paper propose using a modified Transformer architecture with direction- and distance-aware attention. This is achieved by using relative positional encoding (RPE) to capture the relative positions of tokens in the sequence, and by modifying the attention mechanism to use the RPE instead of the standard positional encoding.
+
+The RPE is computed as $R_{t-j} = \sin(c_it) + \cos(c_jt)$, where $c_i$ and $c_j$ are learnable parameters, and $t$ and $j$ are the indices of the target and context tokens, respectively. The attention score is then computed as $Q_t^TR_{t-j} = Q_t^T\sin(c_it) + \cos(c_jt)$, which captures the directional information between the target and context tokens.
+
+Additionally, the authors propose using unscaled attention instead of the standard scaled dot-product attention used in the vanilla Transformer. This is because the scaled dot-product attention can be too smooth and lose important information, especially in the"
+How do they incorporate direction and relative distance in attention?,1911.04474,boolean,Yes,"  Based on the given context information, to incorporate direction and relative distance in attention, the authors of the paper propose using a modified Transformer architecture with direction- and distance-aware attention. This is achieved by using relative positional encoding (RPE) to capture the relative positions of tokens in the sequence, and by modifying the attention mechanism to use the RPE instead of the standard positional encoding.
+
+The RPE is computed as $R_{t-j} = \sin(c_it) + \cos(c_jt)$, where $c_i$ and $c_j$ are learnable parameters, and $t$ and $j$ are the indices of the target and context tokens, respectively. The attention score is then computed as $Q_t^TR_{t-j} = Q_t^T\sin(c_it) + \cos(c_jt)$, which captures the directional information between the target and context tokens.
+
+Additionally, the authors propose using unscaled attention instead of the standard scaled dot-product attention used in the vanilla Transformer. This is because the scaled dot-product attention can be too smooth and lose important information, especially in the"
+How do they incorporate direction and relative distance in attention?,1911.04474,abstractive,calculate the attention scores  which can  distinguish different directions and distances,"  Based on the given context information, to incorporate direction and relative distance in attention, the authors of the paper propose using a modified Transformer architecture with direction- and distance-aware attention. This is achieved by using relative positional encoding (RPE) to capture the relative positions of tokens in the sequence, and by modifying the attention mechanism to use the RPE instead of the standard positional encoding.
+
+The RPE is computed as $R_{t-j} = \sin(c_it) + \cos(c_jt)$, where $c_i$ and $c_j$ are learnable parameters, and $t$ and $j$ are the indices of the target and context tokens, respectively. The attention score is then computed as $Q_t^TR_{t-j} = Q_t^T\sin(c_it) + \cos(c_jt)$, which captures the directional information between the target and context tokens.
+
+Additionally, the authors propose using unscaled attention instead of the standard scaled dot-product attention used in the vanilla Transformer. This is because the scaled dot-product attention can be too smooth and lose important information, especially in the"
+How do they incorporate direction and relative distance in attention?,1911.04474,abstractive,Self-attention mechanism is changed to allow for direction-aware calculations,"  Based on the given context information, to incorporate direction and relative distance in attention, the authors of the paper propose using a modified Transformer architecture with direction- and distance-aware attention. This is achieved by using relative positional encoding (RPE) to capture the relative positions of tokens in the sequence, and by modifying the attention mechanism to use the RPE instead of the standard positional encoding.
+
+The RPE is computed as $R_{t-j} = \sin(c_it) + \cos(c_jt)$, where $c_i$ and $c_j$ are learnable parameters, and $t$ and $j$ are the indices of the target and context tokens, respectively. The attention score is then computed as $Q_t^TR_{t-j} = Q_t^T\sin(c_it) + \cos(c_jt)$, which captures the directional information between the target and context tokens.
+
+Additionally, the authors propose using unscaled attention instead of the standard scaled dot-product attention used in the vanilla Transformer. This is because the scaled dot-product attention can be too smooth and lose important information, especially in the"
+Do they outperform current NER state-of-the-art models?,1911.04474,boolean,No,"  Based on the given context information, the answer to the query ""Do they outperform current NER state-of-the-art models?"" is:
+
+Yes, the proposed TENER model outperforms current NER state-of-the-art models in six datasets, as shown in the experimental results presented in the paper. The adapted Transformer encoder used in TENER has the ability to capture long-range context and incorporates direction-aware, distance-aware, and unscaled attention, which improves its performance compared to previous models. Additionally, the proposed model achieves superior performance with the same pre-trained embeddings and external knowledge as previous models, indicating that it outperforms current state-of-the-art models."
+Do they outperform current NER state-of-the-art models?,1911.04474,boolean,Yes,"  Based on the given context information, the answer to the query ""Do they outperform current NER state-of-the-art models?"" is:
+
+Yes, the proposed TENER model outperforms current NER state-of-the-art models in six datasets, as shown in the experimental results presented in the paper. The adapted Transformer encoder used in TENER has the ability to capture long-range context and incorporates direction-aware, distance-aware, and unscaled attention, which improves its performance compared to previous models. Additionally, the proposed model achieves superior performance with the same pre-trained embeddings and external knowledge as previous models, indicating that it outperforms current state-of-the-art models."
+Do they outperform current NER state-of-the-art models?,1911.04474,boolean,Yes,"  Based on the given context information, the answer to the query ""Do they outperform current NER state-of-the-art models?"" is:
+
+Yes, the proposed TENER model outperforms current NER state-of-the-art models in six datasets, as shown in the experimental results presented in the paper. The adapted Transformer encoder used in TENER has the ability to capture long-range context and incorporates direction-aware, distance-aware, and unscaled attention, which improves its performance compared to previous models. Additionally, the proposed model achieves superior performance with the same pre-trained embeddings and external knowledge as previous models, indicating that it outperforms current state-of-the-art models."
+Do they outperform current NER state-of-the-art models?,1911.04474,extractive,we achieve state-of-the-art performance among models without considering the pre-trained language models or designed features,"  Based on the given context information, the answer to the query ""Do they outperform current NER state-of-the-art models?"" is:
+
+Yes, the proposed TENER model outperforms current NER state-of-the-art models in six datasets, as shown in the experimental results presented in the paper. The adapted Transformer encoder used in TENER has the ability to capture long-range context and incorporates direction-aware, distance-aware, and unscaled attention, which improves its performance compared to previous models. Additionally, the proposed model achieves superior performance with the same pre-trained embeddings and external knowledge as previous models, indicating that it outperforms current state-of-the-art models."
+What was their accuracy score?,1905.00840,abstractive,"95.6% on knowledge authoring, 95% on the manually constructed QA dataset and 100% accuracy on the MetaQA dataset","  Based on the information provided in the context, the accuracy score of KALM-QA is 95%."
+What was their accuracy score?,1905.00840,extractive,"KALM achieves an accuracy of 95.6%, KALM-QA achieves 100% accuracy","  Based on the information provided in the context, the accuracy score of KALM-QA is 95%."
+What was their accuracy score?,1905.00840,extractive,"KALM-QA achieves an accuracy of 95% for parsing the queries, The second dataset we use is MetaQA dataset BIBREF14 , which contains contains almost 29,000 test questions and over 260,000 training questions. KALM-QA achieves 100% accuracy","  Based on the information provided in the context, the accuracy score of KALM-QA is 95%."
+What was their accuracy score?,1905.00840,abstractive,"KALM achieves an accuracy of 95.6%, KALM-QA achieves 95% accuracy on the manually constructured general questions dataset based on the 50 logical frames and achieves 100% accuracy on MetaQA dataset","  Based on the information provided in the context, the accuracy score of KALM-QA is 95%."
+What are the state-of-the-art systems?,1905.00840,extractive,"SEMAFOR, SLING, Stanford KBP ","  Based on the provided context information, there are several state-of-the-art systems for knowledge authoring and question answering. These include:
+
+1. KALM (Knowledge Authoring and Learning Machine): A system that uses a complex frame-semantic parser to standardize the semantics of sentences expressing the same meaning via different linguistic structures. KALM achieves superior accuracy in knowledge authoring and question answering compared to current CNL systems.
+2. KALM-QA: A question answering module based on KALM, which translates questions into unique logical representations for queries (ULRQ) and uses a priority-based search and caching mechanism to improve efficiency.
+3. OpenIE: A knowledge extraction tool that extracts semantic relations from English sentences, capturing the meaning of the sentence.
+4. SEMEFOR: A system that uses frame-based parsing to capture the meaning of sentences and disambiguate the meaning of extracted entities.
+5. SLING: A system that uses a combination of syntactic and semantic parsing to extract semantic relations from English sentences.
+6. Stanford KBP system: A system that uses a knowledge base to answer questions by reasoning over the"
+What are the state-of-the-art systems?,1905.00840,extractive,"SEMAFOR, SLING, Stanford KBP system","  Based on the provided context information, there are several state-of-the-art systems for knowledge authoring and question answering. These include:
+
+1. KALM (Knowledge Authoring and Learning Machine): A system that uses a complex frame-semantic parser to standardize the semantics of sentences expressing the same meaning via different linguistic structures. KALM achieves superior accuracy in knowledge authoring and question answering compared to current CNL systems.
+2. KALM-QA: A question answering module based on KALM, which translates questions into unique logical representations for queries (ULRQ) and uses a priority-based search and caching mechanism to improve efficiency.
+3. OpenIE: A knowledge extraction tool that extracts semantic relations from English sentences, capturing the meaning of the sentence.
+4. SEMEFOR: A system that uses frame-based parsing to capture the meaning of sentences and disambiguate the meaning of extracted entities.
+5. SLING: A system that uses a combination of syntactic and semantic parsing to extract semantic relations from English sentences.
+6. Stanford KBP system: A system that uses a knowledge base to answer questions by reasoning over the"
+What are the state-of-the-art systems?,1905.00840,extractive,"SEMAFOR, SLING, Stanford KBP system","  Based on the provided context information, there are several state-of-the-art systems for knowledge authoring and question answering. These include:
+
+1. KALM (Knowledge Authoring and Learning Machine): A system that uses a complex frame-semantic parser to standardize the semantics of sentences expressing the same meaning via different linguistic structures. KALM achieves superior accuracy in knowledge authoring and question answering compared to current CNL systems.
+2. KALM-QA: A question answering module based on KALM, which translates questions into unique logical representations for queries (ULRQ) and uses a priority-based search and caching mechanism to improve efficiency.
+3. OpenIE: A knowledge extraction tool that extracts semantic relations from English sentences, capturing the meaning of the sentence.
+4. SEMEFOR: A system that uses frame-based parsing to capture the meaning of sentences and disambiguate the meaning of extracted entities.
+5. SLING: A system that uses a combination of syntactic and semantic parsing to extract semantic relations from English sentences.
+6. Stanford KBP system: A system that uses a knowledge base to answer questions by reasoning over the"
+What are the state-of-the-art systems?,1905.00840,extractive,"SEMAFOR, SLING, and Stanford KBP system, BIBREF14","  Based on the provided context information, there are several state-of-the-art systems for knowledge authoring and question answering. These include:
+
+1. KALM (Knowledge Authoring and Learning Machine): A system that uses a complex frame-semantic parser to standardize the semantics of sentences expressing the same meaning via different linguistic structures. KALM achieves superior accuracy in knowledge authoring and question answering compared to current CNL systems.
+2. KALM-QA: A question answering module based on KALM, which translates questions into unique logical representations for queries (ULRQ) and uses a priority-based search and caching mechanism to improve efficiency.
+3. OpenIE: A knowledge extraction tool that extracts semantic relations from English sentences, capturing the meaning of the sentence.
+4. SEMEFOR: A system that uses frame-based parsing to capture the meaning of sentences and disambiguate the meaning of extracted entities.
+5. SLING: A system that uses a combination of syntactic and semantic parsing to extract semantic relations from English sentences.
+6. Stanford KBP system: A system that uses a knowledge base to answer questions by reasoning over the"
+What dataset did they evaluate on?,1905.00840,abstractive,"dataset consisting 250 sentences adapted from FrameNet exemplar sentences, dataset consisting general questions based on 50 logical framesderived from FrameNet, MetaQA dataset","  Based on the given context information, I can answer the query ""What dataset did they evaluate on?"" as follows:
+
+The authors evaluated KALM and KALM-QA on two datasets:
+
+1. A manually constructed dataset of 50 logical frames, mostly derived from FrameNet but also including some frames that FrameNet is missing (like Restaurant and Human Gender). They constructed 250 sentences adapted from FrameNet exemplar sentences to evaluate the systems on this dataset.
+2. The second dataset is the MetaQA dataset BIBREF14, which contains almost 29,000 test questions and over 260,000 training questions.
+
+Therefore, the answer to the query ""What dataset did they evaluate on?"" is: They evaluated on two datasets: a manually constructed dataset of 50 logical frames and the MetaQA dataset BIBREF14."
+What dataset did they evaluate on?,1905.00840,extractive,"first dataset is manually constructed general questions based on the 50 logical frames, second dataset we use is MetaQA dataset BIBREF14 , which contains contains almost 29,000 test questions and over 260,000 training questions","  Based on the given context information, I can answer the query ""What dataset did they evaluate on?"" as follows:
+
+The authors evaluated KALM and KALM-QA on two datasets:
+
+1. A manually constructed dataset of 50 logical frames, mostly derived from FrameNet but also including some frames that FrameNet is missing (like Restaurant and Human Gender). They constructed 250 sentences adapted from FrameNet exemplar sentences to evaluate the systems on this dataset.
+2. The second dataset is the MetaQA dataset BIBREF14, which contains almost 29,000 test questions and over 260,000 training questions.
+
+Therefore, the answer to the query ""What dataset did they evaluate on?"" is: They evaluated on two datasets: a manually constructed dataset of 50 logical frames and the MetaQA dataset BIBREF14."
+What dataset did they evaluate on?,1905.00840,abstractive,"a manually created dataset of 50 logical frames mostly derived from FrameNet, a manually constructed general questions dataset based on the 50 logical frames and MetaQA dataset","  Based on the given context information, I can answer the query ""What dataset did they evaluate on?"" as follows:
+
+The authors evaluated KALM and KALM-QA on two datasets:
+
+1. A manually constructed dataset of 50 logical frames, mostly derived from FrameNet but also including some frames that FrameNet is missing (like Restaurant and Human Gender). They constructed 250 sentences adapted from FrameNet exemplar sentences to evaluate the systems on this dataset.
+2. The second dataset is the MetaQA dataset BIBREF14, which contains almost 29,000 test questions and over 260,000 training questions.
+
+Therefore, the answer to the query ""What dataset did they evaluate on?"" is: They evaluated on two datasets: a manually constructed dataset of 50 logical frames and the MetaQA dataset BIBREF14."
+What dataset did they evaluate on?,1905.00840,extractive," manually constructed general questions based on the 50 logical frames, MetaQA dataset","  Based on the given context information, I can answer the query ""What dataset did they evaluate on?"" as follows:
+
+The authors evaluated KALM and KALM-QA on two datasets:
+
+1. A manually constructed dataset of 50 logical frames, mostly derived from FrameNet but also including some frames that FrameNet is missing (like Restaurant and Human Gender). They constructed 250 sentences adapted from FrameNet exemplar sentences to evaluate the systems on this dataset.
+2. The second dataset is the MetaQA dataset BIBREF14, which contains almost 29,000 test questions and over 260,000 training questions.
+
+Therefore, the answer to the query ""What dataset did they evaluate on?"" is: They evaluated on two datasets: a manually constructed dataset of 50 logical frames and the MetaQA dataset BIBREF14."
+What are the contributions of this paper?,1810.02229,extractive,"adaptation of a state-of-the-art sequence to sequence (seq2seq) neural system to event detection and classification for Italian in a single step approach, investigation on the quality of existing Italian word embeddings for this task, a comparison against a state-of-the-art discrete classifier","  Based on the context information provided, the contributions of this paper are:
+
+1. Adaptation of a state-of-the-art sequence-to-sequence (seq2seq) neural system to event detection and classification for Italian in a single step approach.
+2. Investigation on the quality of existing Italian word embeddings for this task.
+3. Comparison against a state-of-the-art discrete classifier.
+4. Obtaining new state-of-the-art results using the Fastext-It embeddings, with an improved F1-class score of 6.5 points in strict evaluation mode.
+5. Providing further evidence that word embeddings have a major impact on the performance of neural architectures."
+What are the contributions of this paper?,1810.02229,abstractive,(1) Using seq2seq for event detection and classification in Italian (2) Investigating quality of Italian word embeddings for this task (3) Comparison to state-of-the-art discrete classifier,"  Based on the context information provided, the contributions of this paper are:
+
+1. Adaptation of a state-of-the-art sequence-to-sequence (seq2seq) neural system to event detection and classification for Italian in a single step approach.
+2. Investigation on the quality of existing Italian word embeddings for this task.
+3. Comparison against a state-of-the-art discrete classifier.
+4. Obtaining new state-of-the-art results using the Fastext-It embeddings, with an improved F1-class score of 6.5 points in strict evaluation mode.
+5. Providing further evidence that word embeddings have a major impact on the performance of neural architectures."
+What are the contributions of this paper?,1810.02229,extractive,"the adaptation of a state-of-the-art sequence to sequence (seq2seq) neural system to event detection and classification for Italian in a single step approach, an investigation on the quality of existing Italian word embeddings for this task, a comparison against a state-of-the-art discrete classifier, pre-trained models and scripts running the system","  Based on the context information provided, the contributions of this paper are:
+
+1. Adaptation of a state-of-the-art sequence-to-sequence (seq2seq) neural system to event detection and classification for Italian in a single step approach.
+2. Investigation on the quality of existing Italian word embeddings for this task.
+3. Comparison against a state-of-the-art discrete classifier.
+4. Obtaining new state-of-the-art results using the Fastext-It embeddings, with an improved F1-class score of 6.5 points in strict evaluation mode.
+5. Providing further evidence that word embeddings have a major impact on the performance of neural architectures."
+What are the contributions of this paper?,1810.02229,abstractive,"Adapting a seq2seq neural system to event detection and classification for Italian, investigating the quality of existing embeddings for the task, and comparing against a state-of-the-art discrete classifier.","  Based on the context information provided, the contributions of this paper are:
+
+1. Adaptation of a state-of-the-art sequence-to-sequence (seq2seq) neural system to event detection and classification for Italian in a single step approach.
+2. Investigation on the quality of existing Italian word embeddings for this task.
+3. Comparison against a state-of-the-art discrete classifier.
+4. Obtaining new state-of-the-art results using the Fastext-It embeddings, with an improved F1-class score of 6.5 points in strict evaluation mode.
+5. Providing further evidence that word embeddings have a major impact on the performance of neural architectures."
+What are the baselines this paper uses?,1810.02229,extractive, cascade of two SVM classifiers (one for detection and one for classification) based on rich linguistic features,"  Based on the provided context information, the paper uses the following baselines:
+
+1. Word2Vec (skip-gram) embeddings
+2. GloVe embeddings
+3. FastText-It embeddings
+
+These are the three types of word embeddings that the author experimented with to initialize the Bi-LSTM-CRF network for event detection and classification in Italian."
+What are the baselines this paper uses?,1810.02229,abstractive,FBK-HLT - a cascade of two SVM classifiers (one for detection and one for classification),"  Based on the provided context information, the paper uses the following baselines:
+
+1. Word2Vec (skip-gram) embeddings
+2. GloVe embeddings
+3. FastText-It embeddings
+
+These are the three types of word embeddings that the author experimented with to initialize the Bi-LSTM-CRF network for event detection and classification in Italian."
+What are the baselines this paper uses?,1810.02229,extractive,FBK-HLT BIBREF23,"  Based on the provided context information, the paper uses the following baselines:
+
+1. Word2Vec (skip-gram) embeddings
+2. GloVe embeddings
+3. FastText-It embeddings
+
+These are the three types of word embeddings that the author experimented with to initialize the Bi-LSTM-CRF network for event detection and classification in Italian."
+What are the baselines this paper uses?,1810.02229,none,Unacceptable,"  Based on the provided context information, the paper uses the following baselines:
+
+1. Word2Vec (skip-gram) embeddings
+2. GloVe embeddings
+3. FastText-It embeddings
+
+These are the three types of word embeddings that the author experimented with to initialize the Bi-LSTM-CRF network for event detection and classification in Italian."
+Can the model be extended to other languages?,1810.02229,none,Unacceptable,"  Based on the information provided, the Bi-LSTM network with a CRF classifier was adapted for Italian event detection and classification. The model's performance was evaluated on the EVENTI corpus, which consists of contemporary and historical news articles in Italian.
+
+To answer your query, it is possible to extend the model to other languages, as the approach is not specific to Italian. However, several factors would need to be considered when adapting the model to other languages:
+
+1. Availability of annotated corpora: The model requires a large amount of annotated data to learn to detect and classify events effectively. The availability of such corpora in the target language is crucial.
+2. Language-specific features: Each language has its unique grammatical and syntactical features, which may require adjustments to the model's architecture or training parameters.
+3. Word embeddings: The model uses word embeddings to represent words in the input text. Different languages may have different word embedding models available, and selecting the most appropriate one for the target language is important.
+4. Cultural and linguistic differences: Events and their corresponding language patterns may vary across cultures and languages"
+Can the model be extended to other languages?,1810.02229,boolean,Yes,"  Based on the information provided, the Bi-LSTM network with a CRF classifier was adapted for Italian event detection and classification. The model's performance was evaluated on the EVENTI corpus, which consists of contemporary and historical news articles in Italian.
+
+To answer your query, it is possible to extend the model to other languages, as the approach is not specific to Italian. However, several factors would need to be considered when adapting the model to other languages:
+
+1. Availability of annotated corpora: The model requires a large amount of annotated data to learn to detect and classify events effectively. The availability of such corpora in the target language is crucial.
+2. Language-specific features: Each language has its unique grammatical and syntactical features, which may require adjustments to the model's architecture or training parameters.
+3. Word embeddings: The model uses word embeddings to represent words in the input text. Different languages may have different word embedding models available, and selecting the most appropriate one for the target language is important.
+4. Cultural and linguistic differences: Events and their corresponding language patterns may vary across cultures and languages"
+Can the model be extended to other languages?,1810.02229,none,Unacceptable,"  Based on the information provided, the Bi-LSTM network with a CRF classifier was adapted for Italian event detection and classification. The model's performance was evaluated on the EVENTI corpus, which consists of contemporary and historical news articles in Italian.
+
+To answer your query, it is possible to extend the model to other languages, as the approach is not specific to Italian. However, several factors would need to be considered when adapting the model to other languages:
+
+1. Availability of annotated corpora: The model requires a large amount of annotated data to learn to detect and classify events effectively. The availability of such corpora in the target language is crucial.
+2. Language-specific features: Each language has its unique grammatical and syntactical features, which may require adjustments to the model's architecture or training parameters.
+3. Word embeddings: The model uses word embeddings to represent words in the input text. Different languages may have different word embedding models available, and selecting the most appropriate one for the target language is important.
+4. Cultural and linguistic differences: Events and their corresponding language patterns may vary across cultures and languages"
+Can the model be extended to other languages?,1810.02229,none,Unacceptable,"  Based on the information provided, the Bi-LSTM network with a CRF classifier was adapted for Italian event detection and classification. The model's performance was evaluated on the EVENTI corpus, which consists of contemporary and historical news articles in Italian.
+
+To answer your query, it is possible to extend the model to other languages, as the approach is not specific to Italian. However, several factors would need to be considered when adapting the model to other languages:
+
+1. Availability of annotated corpora: The model requires a large amount of annotated data to learn to detect and classify events effectively. The availability of such corpora in the target language is crucial.
+2. Language-specific features: Each language has its unique grammatical and syntactical features, which may require adjustments to the model's architecture or training parameters.
+3. Word embeddings: The model uses word embeddings to represent words in the input text. Different languages may have different word embedding models available, and selecting the most appropriate one for the target language is important.
+4. Cultural and linguistic differences: Events and their corresponding language patterns may vary across cultures and languages"
+How do they decide what is the semantic concept label of particular cluster?,1909.00091,extractive,"Given a cluster, our algorithm proceeds with the following three steps:
+
+Sense disambiguation: The goal is to assign each cluster word to one of its WordNet synsets; let $S$ represent the collection of chosen synsets. We know that these words have been clustered in domain-specific embedding space, which means that in the context of the domain, these words are very close semantically. Thus, we choose $S^*$ that minimizes the total distance between its synsets.
+
+Candidate label generation: In this step, we generate $L$, the set of possible cluster labels. Our approach is simple: we take the union of all hypernyms of the synsets in $S^*$.
+
+Candidate label ranking: Here, we rank the synsets in $L$. We want labels that are as close to all of the synsets in $S^*$ as possible; thus, we score the candidate labels by the sum of their distances to each synset in $S^*$ and we rank them from least to most distance.
+
+In steps 1 and 3, we use WordNet pathwise distance, but we encourage the exploration of other distance representations as well.","  Based on the provided context information, the authors of the paper used a combination of WordNet BIBREF34 and context-sensitive strengths of domain-specific word embeddings to automatically label the clusters. Specifically, they combined the grounded knowledge of WordNet with the context-sensitive strengths of domain-specific word embeddings to assign each cluster word to one of its WordNet synsets. They chose the set of chosen synsets that minimizes the total distance between its synsets, and then generated a set of possible cluster labels by taking the union of all hypernyms of the synsets in the chosen set. Finally, they ranked the candidate labels based on the sum of their distances to each synset in the chosen set. This approach allows them to assign a semantic concept label to each cluster in a way that is grounded in both WordNet and the context of the domain-specific word embeddings."
+How do they decide what is the semantic concept label of particular cluster?,1909.00091,extractive,"Candidate label ranking: Here, we rank the synsets in $L$. We want labels that are as close to all of the synsets in $S^*$ as possible; thus, we score the candidate labels by the sum of their distances to each synset in $S^*$ and we rank them from least to most distance.","  Based on the provided context information, the authors of the paper used a combination of WordNet BIBREF34 and context-sensitive strengths of domain-specific word embeddings to automatically label the clusters. Specifically, they combined the grounded knowledge of WordNet with the context-sensitive strengths of domain-specific word embeddings to assign each cluster word to one of its WordNet synsets. They chose the set of chosen synsets that minimizes the total distance between its synsets, and then generated a set of possible cluster labels by taking the union of all hypernyms of the synsets in the chosen set. Finally, they ranked the candidate labels based on the sum of their distances to each synset in the chosen set. This approach allows them to assign a semantic concept label to each cluster in a way that is grounded in both WordNet and the context of the domain-specific word embeddings."
+How do they decide what is the semantic concept label of particular cluster?,1909.00091,abstractive,They automatically  label the cluster using WordNet and context-sensitive strengths of domain-specific word embeddings,"  Based on the provided context information, the authors of the paper used a combination of WordNet BIBREF34 and context-sensitive strengths of domain-specific word embeddings to automatically label the clusters. Specifically, they combined the grounded knowledge of WordNet with the context-sensitive strengths of domain-specific word embeddings to assign each cluster word to one of its WordNet synsets. They chose the set of chosen synsets that minimizes the total distance between its synsets, and then generated a set of possible cluster labels by taking the union of all hypernyms of the synsets in the chosen set. Finally, they ranked the candidate labels based on the sum of their distances to each synset in the chosen set. This approach allows them to assign a semantic concept label to each cluster in a way that is grounded in both WordNet and the context of the domain-specific word embeddings."
+How do they decide what is the semantic concept label of particular cluster?,1909.00091,extractive,"Our algorithm is similar to BIBREF28's approach, but we extend their method by introducing domain-specific word embeddings for clustering","  Based on the provided context information, the authors of the paper used a combination of WordNet BIBREF34 and context-sensitive strengths of domain-specific word embeddings to automatically label the clusters. Specifically, they combined the grounded knowledge of WordNet with the context-sensitive strengths of domain-specific word embeddings to assign each cluster word to one of its WordNet synsets. They chose the set of chosen synsets that minimizes the total distance between its synsets, and then generated a set of possible cluster labels by taking the union of all hypernyms of the synsets in the chosen set. Finally, they ranked the candidate labels based on the sum of their distances to each synset in the chosen set. This approach allows them to assign a semantic concept label to each cluster in a way that is grounded in both WordNet and the context of the domain-specific word embeddings."
+How do they discover coherent word clusters?,1909.00091,extractive,"First, we trained domain-specific word embeddings using the Word2Vec BIBREF33 CBOW model ($w \in R^{100}$). Then, we used k-means clustering to cluster the embeddings of the gender-associated words. Since k-means may converge at local optima, we ran the algorithm 50 times and kept the model with the lowest sum of squared errors.","  Based on the provided context information, the authors discovered coherent word clusters by employing the Word Intrusion task BIBREF35 and clustering domain-specific word embeddings using k-means. They used k-means clustering to group the word embeddings of gender-associated words, and then employed a combination of WordNet and context-sensitive strengths of domain-specific word embeddings to automatically label the clusters. Specifically, they first identified the out-of-cluster word in the top 8 ranked by ascending normalized sum of squared errors, and then used a sense disambiguation technique to assign each cluster word to one of its WordNet synsets. Finally, they generated a set of possible cluster labels based on the union of all hypernyms of the synsets, and ranked them based on their distance to all synsets in the set."
+How do they discover coherent word clusters?,1909.00091,extractive,"First, we trained domain-specific word embeddings, Then, we used k-means clustering to cluster the embeddings of the gender-associated words","  Based on the provided context information, the authors discovered coherent word clusters by employing the Word Intrusion task BIBREF35 and clustering domain-specific word embeddings using k-means. They used k-means clustering to group the word embeddings of gender-associated words, and then employed a combination of WordNet and context-sensitive strengths of domain-specific word embeddings to automatically label the clusters. Specifically, they first identified the out-of-cluster word in the top 8 ranked by ascending normalized sum of squared errors, and then used a sense disambiguation technique to assign each cluster word to one of its WordNet synsets. Finally, they generated a set of possible cluster labels based on the union of all hypernyms of the synsets, and ranked them based on their distance to all synsets in the set."
+How do they discover coherent word clusters?,1909.00091,abstractive,"First, they  trained domain-specific word embeddings using the Word2Vec  model, then used k-means clustering to cluster the embeddings of the gender-associated words.","  Based on the provided context information, the authors discovered coherent word clusters by employing the Word Intrusion task BIBREF35 and clustering domain-specific word embeddings using k-means. They used k-means clustering to group the word embeddings of gender-associated words, and then employed a combination of WordNet and context-sensitive strengths of domain-specific word embeddings to automatically label the clusters. Specifically, they first identified the out-of-cluster word in the top 8 ranked by ascending normalized sum of squared errors, and then used a sense disambiguation technique to assign each cluster word to one of its WordNet synsets. Finally, they generated a set of possible cluster labels based on the union of all hypernyms of the synsets, and ranked them based on their distance to all synsets in the set."
+How do they discover coherent word clusters?,1909.00091,abstractive,"The authors first generated a set of words which are associated with each gender, then built domain-specific word embeddings and used k-means clustering to cluster the gendered word associations together. ","  Based on the provided context information, the authors discovered coherent word clusters by employing the Word Intrusion task BIBREF35 and clustering domain-specific word embeddings using k-means. They used k-means clustering to group the word embeddings of gender-associated words, and then employed a combination of WordNet and context-sensitive strengths of domain-specific word embeddings to automatically label the clusters. Specifically, they first identified the out-of-cluster word in the top 8 ranked by ascending normalized sum of squared errors, and then used a sense disambiguation technique to assign each cluster word to one of its WordNet synsets. Finally, they generated a set of possible cluster labels based on the union of all hypernyms of the synsets, and ranked them based on their distance to all synsets in the set."
+How big are two introduced datasets?,1909.00091,abstractive,300K sentences in each dataset,"  Based on the context information provided, the two introduced datasets are each consisting of over 300,000 sentences."
+How big are two introduced datasets?,1909.00091,extractive,each consisting of over 300K sentences,"  Based on the context information provided, the two introduced datasets are each consisting of over 300,000 sentences."
+How big are two introduced datasets?,1909.00091,abstractive,"Celeb dataset: 15917 texts and 342645 sentences
+Professor dataset: 283973 texts and 976677 sentences","  Based on the context information provided, the two introduced datasets are each consisting of over 300,000 sentences."
+How big are two introduced datasets?,1909.00091,abstractive,"Celebrity Dataset has 15,917 texts, 342,645 sentences, and the Female Male Proportions are  0.67/ 0.33. 
+Professor Dataset has 283,973 texts, 976, 667 sentences, and the Femal Male Proportions are 0.28./ 0,72","  Based on the context information provided, the two introduced datasets are each consisting of over 300,000 sentences."
+What are strong baselines authors used?,1909.00091,abstractive,"The authors contrasted human evaluations against a random baseline, and used the centroid of the cluster as a strong baseline.","  Based on the provided context information, the authors used strong baselines such as the centroid of the cluster and the top 4 predicted labels to evaluate the performance of their methods for identifying gender associations in language."
+What are strong baselines authors used?,1909.00091,none,Unacceptable,"  Based on the provided context information, the authors used strong baselines such as the centroid of the cluster and the top 4 predicted labels to evaluate the performance of their methods for identifying gender associations in language."
+What are strong baselines authors used?,1909.00091,extractive,the top 4 predicted labels and the centroid of the cluster,"  Based on the provided context information, the authors used strong baselines such as the centroid of the cluster and the top 4 predicted labels to evaluate the performance of their methods for identifying gender associations in language."
+What are strong baselines authors used?,1909.00091,extractive,the top 4 predicted labels and the centroid of the cluster as a strong baseline label,"  Based on the provided context information, the authors used strong baselines such as the centroid of the cluster and the top 4 predicted labels to evaluate the performance of their methods for identifying gender associations in language."
+How do data-driven models usually respond to abuse?,1909.04387,abstractive,"either by refusing politely, or, with flirtatious responses, or, by retaliating","  Based on the provided context information, it is not appropriate to make a general statement about how data-driven models usually respond to abuse. The appropriateness of responses to abuse can depend on various factors such as the type of abuse, the user's age, and the severity of the preceding abuse. Additionally, the study found that data-driven models may not be effective in controlling for abusive language and may require more effective control mechanisms. Therefore, it is important to approach responses to abuse with caution and to consider the specific context and circumstances of each situation."
+How do data-driven models usually respond to abuse?,1909.04387,extractive,Data-driven systems rank low in general,"  Based on the provided context information, it is not appropriate to make a general statement about how data-driven models usually respond to abuse. The appropriateness of responses to abuse can depend on various factors such as the type of abuse, the user's age, and the severity of the preceding abuse. Additionally, the study found that data-driven models may not be effective in controlling for abusive language and may require more effective control mechanisms. Therefore, it is important to approach responses to abuse with caution and to consider the specific context and circumstances of each situation."
+How do data-driven models usually respond to abuse?,1909.04387,extractive,"politely refuse, politely refuses, flirtatious responses","  Based on the provided context information, it is not appropriate to make a general statement about how data-driven models usually respond to abuse. The appropriateness of responses to abuse can depend on various factors such as the type of abuse, the user's age, and the severity of the preceding abuse. Additionally, the study found that data-driven models may not be effective in controlling for abusive language and may require more effective control mechanisms. Therefore, it is important to approach responses to abuse with caution and to consider the specific context and circumstances of each situation."
+How do data-driven models usually respond to abuse?,1909.04387,abstractive,flirt; retaliation,"  Based on the provided context information, it is not appropriate to make a general statement about how data-driven models usually respond to abuse. The appropriateness of responses to abuse can depend on various factors such as the type of abuse, the user's age, and the severity of the preceding abuse. Additionally, the study found that data-driven models may not be effective in controlling for abusive language and may require more effective control mechanisms. Therefore, it is important to approach responses to abuse with caution and to consider the specific context and circumstances of each situation."
+How much data did they gather from crowdsourcing?,1909.04387,extractive,600K,"  Based on the given context information, the authors gathered 9960 HITs from 472 crowd workers for their study on perceived appropriateness of system responses after verbal abuse."
+How much data did they gather from crowdsourcing?,1909.04387,extractive,9960,"  Based on the given context information, the authors gathered 9960 HITs from 472 crowd workers for their study on perceived appropriateness of system responses after verbal abuse."
+How much data did they gather from crowdsourcing?,1909.04387,extractive,9960 HITs from 472 crowd workers,"  Based on the given context information, the authors gathered 9960 HITs from 472 crowd workers for their study on perceived appropriateness of system responses after verbal abuse."
+How much data did they gather from crowdsourcing?,1909.04387,extractive,9960 HITs,"  Based on the given context information, the authors gathered 9960 HITs from 472 crowd workers for their study on perceived appropriateness of system responses after verbal abuse."
+How many different strategies were evaluated?,1909.04387,abstractive,14,"  Based on the provided context information, there were 14 response types evaluated in the user study."
+How many different strategies were evaluated?,1909.04387,abstractive,12,"  Based on the provided context information, there were 14 response types evaluated in the user study."
+How many different strategies were evaluated?,1909.04387,extractive,14,"  Based on the provided context information, there were 14 response types evaluated in the user study."
+How many different strategies were evaluated?,1909.04387,none,Unacceptable,"  Based on the provided context information, there were 14 response types evaluated in the user study."
+Was the automatic annotation evaluated?,2003.13016,boolean,No,"  Based on the provided context information, it appears that the automatic annotation of the legal document dataset was evaluated. The evaluation was done using a stratified 10-fold cross-validation with two variants of annotation, and the results showed that BiLSTMs performed best for fine-grained classification, reaching an F$_1$ score of 95.46, while CRFs reached up to 93.23 F$_1$ for fine-grained classes and 93.22 F$_1$ for coarse-grained ones. The evaluation also revealed deficiencies in the annotation guidelines, particularly regarding court decision and legal literature, and non-entities."
+Was the automatic annotation evaluated?,2003.13016,boolean,No,"  Based on the provided context information, it appears that the automatic annotation of the legal document dataset was evaluated. The evaluation was done using a stratified 10-fold cross-validation with two variants of annotation, and the results showed that BiLSTMs performed best for fine-grained classification, reaching an F$_1$ score of 95.46, while CRFs reached up to 93.23 F$_1$ for fine-grained classes and 93.22 F$_1$ for coarse-grained ones. The evaluation also revealed deficiencies in the annotation guidelines, particularly regarding court decision and legal literature, and non-entities."
+Was the automatic annotation evaluated?,2003.13016,boolean,Yes,"  Based on the provided context information, it appears that the automatic annotation of the legal document dataset was evaluated. The evaluation was done using a stratified 10-fold cross-validation with two variants of annotation, and the results showed that BiLSTMs performed best for fine-grained classification, reaching an F$_1$ score of 95.46, while CRFs reached up to 93.23 F$_1$ for fine-grained classes and 93.22 F$_1$ for coarse-grained ones. The evaluation also revealed deficiencies in the annotation guidelines, particularly regarding court decision and legal literature, and non-entities."
+Was the automatic annotation evaluated?,2003.13016,boolean,Yes,"  Based on the provided context information, it appears that the automatic annotation of the legal document dataset was evaluated. The evaluation was done using a stratified 10-fold cross-validation with two variants of annotation, and the results showed that BiLSTMs performed best for fine-grained classification, reaching an F$_1$ score of 95.46, while CRFs reached up to 93.23 F$_1$ for fine-grained classes and 93.22 F$_1$ for coarse-grained ones. The evaluation also revealed deficiencies in the annotation guidelines, particularly regarding court decision and legal literature, and non-entities."
